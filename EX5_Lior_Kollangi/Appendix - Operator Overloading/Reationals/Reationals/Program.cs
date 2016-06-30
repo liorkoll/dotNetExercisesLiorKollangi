@@ -16,6 +16,7 @@ namespace Reationals
             Rational R2 = new Rational(1,3);
             Rational R3= R1.Mul(R2);
             R3.Reduce();
+
           //  Console.WriteLine(R1.ToString());
            // Console.WriteLine(R2.ToString());
            // Console.WriteLine(R3.ToString());
