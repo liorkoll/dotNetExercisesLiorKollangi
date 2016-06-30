@@ -1,0 +1,6 @@
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\FileFinder.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\obj\Debug\FileFinder.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\FileFinder.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\FileFinder.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\obj\Debug\FileFinder.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\obj\Debug\FileFinder.pdb

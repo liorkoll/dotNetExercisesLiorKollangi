@@ -1,0 +1,14 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe.config
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\bin\Debug\HelloPerson.pdb
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\obj\Debug\HelloPerson.exe
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\obj\Debug\HelloPerson.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloPerson\HelloPerson\obj\Debug\HelloPerson.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloPerson\HelloPerson\obj\Debug\HelloPerson.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloPerson\HelloPerson\bin\Debug\HelloPerson.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloPerson\HelloPerson\obj\Debug\HelloPerson.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX1ֹ_Lior_Kollangi\Lab 2.1 - Basic ConsoleIO\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX1ֹ_Lior_Kollangi\Lab 2.1 - Basic ConsoleIO\HelloPerson\HelloPerson\obj\Debug\HelloPerson.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX1ֹ_Lior_Kollangi\Lab 2.1 - Basic ConsoleIO\HelloPerson\HelloPerson\obj\Debug\HelloPerson.pdb

@@ -1,0 +1,6 @@
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.1 - Accessing Files\Personnel\Personnel\bin\Debug\Personnel.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.1 - Accessing Files\Personnel\Personnel\bin\Debug\Personnel.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.1 - Accessing Files\Personnel\Personnel\bin\Debug\Personnel.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.1 - Accessing Files\Personnel\Personnel\obj\Debug\Personnel.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.1 - Accessing Files\Personnel\Personnel\obj\Debug\Personnel.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX5_Lior_Kollangi\Lab 10.1 - Accessing Files\Personnel\Personnel\obj\Debug\Personnel.pdb

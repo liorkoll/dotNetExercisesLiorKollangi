@@ -1,0 +1,5 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe.config
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\bin\Debug\HelloPerson.exe
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\bin\Debug\HelloPerson.pdb
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\obj\Debug\HelloPerson.exe
+C:\Users\Kollangi\Documents\Visual Studio 2015\Projects\HelloPerson\HelloPerson\obj\Debug\HelloPerson.pdb

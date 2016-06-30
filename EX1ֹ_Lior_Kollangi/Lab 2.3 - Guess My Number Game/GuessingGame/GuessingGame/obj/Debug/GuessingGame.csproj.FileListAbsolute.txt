@@ -1,0 +1,11 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe.config
+c:\users\kollangi\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\bin\Debug\GuessingGame.pdb
+c:\users\kollangi\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\obj\Debug\GuessingGame.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\GuessingGame\GuessingGame\obj\Debug\GuessingGame.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.3 - Guess My Number Game\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.3 - Guess My Number Game\GuessingGame\GuessingGame\obj\Debug\GuessingGame.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.3 - Guess My Number Game\GuessingGame\GuessingGame\obj\Debug\GuessingGame.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.3 - Guess My Number Game\GuessingGame\GuessingGame\bin\Debug\GuessingGame.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.3 - Guess My Number Game\GuessingGame\GuessingGame\bin\Debug\GuessingGame.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.3 - Guess My Number Game\GuessingGame\GuessingGame\obj\Debug\GuessingGame.csprojResolveAssemblyReference.cache

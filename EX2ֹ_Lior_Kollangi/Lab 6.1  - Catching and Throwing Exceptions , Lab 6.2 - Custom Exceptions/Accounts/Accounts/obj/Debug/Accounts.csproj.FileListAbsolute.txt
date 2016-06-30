@@ -1,0 +1,5 @@
+D:\codevalue\תרגילי בית\Accounts\Accounts\bin\Debug\Accounts.exe.config
+D:\codevalue\תרגילי בית\Accounts\Accounts\bin\Debug\Accounts.exe
+D:\codevalue\תרגילי בית\Accounts\Accounts\bin\Debug\Accounts.pdb
+D:\codevalue\תרגילי בית\Accounts\Accounts\obj\Debug\Accounts.exe
+D:\codevalue\תרגילי בית\Accounts\Accounts\obj\Debug\Accounts.pdb

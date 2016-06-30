@@ -1,0 +1,30 @@
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\bin\Debug\ShapesApp.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\bin\Debug\ShapeLib.dll
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism\Shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.exe
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapeLib.dll
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapeLib.dll
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.pdb

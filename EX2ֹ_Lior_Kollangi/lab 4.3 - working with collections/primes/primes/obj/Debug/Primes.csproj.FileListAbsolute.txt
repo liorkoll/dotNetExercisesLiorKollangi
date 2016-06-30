@@ -1,0 +1,12 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\Primes\Primes\bin\Debug\Primes.exe.config
+c:\users\kollangi\documents\visual studio 2015\Projects\Primes\Primes\bin\Debug\Primes.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\Primes\Primes\bin\Debug\Primes.pdb
+c:\users\kollangi\documents\visual studio 2015\Projects\Primes\Primes\obj\Debug\Primes.csprojResolveAssemblyReference.cache
+c:\users\kollangi\documents\visual studio 2015\Projects\Primes\Primes\obj\Debug\Primes.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\Primes\Primes\obj\Debug\Primes.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.3 - Working with Collections\Primes\Primes\bin\Debug\Primes.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.3 - Working with Collections\Primes\Primes\obj\Debug\Primes.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.3 - Working with Collections\Primes\Primes\obj\Debug\Primes.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.3 - Working with Collections\Primes\Primes\bin\Debug\Primes.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.3 - Working with Collections\Primes\Primes\bin\Debug\Primes.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.3 - Working with Collections\Primes\Primes\obj\Debug\Primes.csprojResolveAssemblyReference.cache

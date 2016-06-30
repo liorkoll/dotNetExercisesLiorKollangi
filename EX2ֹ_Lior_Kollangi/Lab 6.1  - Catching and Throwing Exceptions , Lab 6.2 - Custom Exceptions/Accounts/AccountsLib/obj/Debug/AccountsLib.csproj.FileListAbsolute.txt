@@ -1,0 +1,29 @@
+D:\codevalue\תרגילי בית\Accounts\AccountsLib\bin\Debug\AccountsLib.dll
+D:\codevalue\תרגילי בית\Accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+D:\codevalue\תרגילי בית\Accounts\AccountsLib\obj\Debug\AccountsLib.dll
+D:\codevalue\תרגילי בית\Accounts\AccountsLib\obj\Debug\AccountsLib.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.1 - Creating Reference Types\Accounts\AccountsLib\bin\Debug\AccountsLib.dll
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.1 - Creating Reference Types\Accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.1 - Creating Reference Types\Accounts\AccountsLib\obj\Debug\AccountsLib.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.1 - Creating Reference Types\Accounts\AccountsLib\obj\Debug\AccountsLib.dll
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.1 - Creating Reference Types\Accounts\AccountsLib\obj\Debug\AccountsLib.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Accounts\AccountsLib\bin\Debug\AccountsLib.dll
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Accounts\AccountsLib\obj\Debug\AccountsLib.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Accounts\AccountsLib\obj\Debug\AccountsLib.dll
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Accounts\AccountsLib\obj\Debug\AccountsLib.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 6.1  - Catching and Throwing Exceptions\Accounts\AccountsLib\bin\Debug\AccountsLib.dll
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 6.1  - Catching and Throwing Exceptions\Accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 6.1  - Catching and Throwing Exceptions\Accounts\AccountsLib\obj\Debug\AccountsLib.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 6.1  - Catching and Throwing Exceptions\Accounts\AccountsLib\obj\Debug\AccountsLib.dll
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 6.1  - Catching and Throwing Exceptions\Accounts\AccountsLib\obj\Debug\AccountsLib.pdb
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\bin\Debug\AccountsLib.dll
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\obj\Debug\AccountsLib.csprojResolveAssemblyReference.cache
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\obj\Debug\AccountsLib.dll
+C:\Users\CodeValueUser\Desktop\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\obj\Debug\AccountsLib.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\bin\Debug\AccountsLib.dll
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\bin\Debug\AccountsLib.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\obj\Debug\AccountsLib.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\obj\Debug\AccountsLib.dll
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\lab 6.1  - catching and throwing exceptions , lab 6.2 - custom exceptions\accounts\AccountsLib\obj\Debug\AccountsLib.pdb

@@ -1,0 +1,18 @@
+D:\codevalue\תרגילי בית\Reationals\Reationals\bin\Debug\Reationals.exe.config
+D:\codevalue\תרגילי בית\Reationals\Reationals\bin\Debug\Reationals.exe
+D:\codevalue\תרגילי בית\Reationals\Reationals\bin\Debug\Reationals.pdb
+D:\codevalue\תרגילי בית\Reationals\Reationals\obj\Debug\Reationals.csprojResolveAssemblyReference.cache
+D:\codevalue\תרגילי בית\Reationals\Reationals\obj\Debug\Reationals.exe
+D:\codevalue\תרגילי בית\Reationals\Reationals\obj\Debug\Reationals.pdb
+E:\codevalue\תרגילי בית\Reationals\Reationals\bin\Debug\Reationals.exe.config
+E:\codevalue\תרגילי בית\Reationals\Reationals\obj\Debug\Reationals.exe
+E:\codevalue\תרגילי בית\Reationals\Reationals\obj\Debug\Reationals.pdb
+E:\codevalue\תרגילי בית\Reationals\Reationals\bin\Debug\Reationals.exe
+E:\codevalue\תרגילי בית\Reationals\Reationals\bin\Debug\Reationals.pdb
+E:\codevalue\תרגילי בית\Reationals\Reationals\obj\Debug\Reationals.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.2 - Creating Value Types\Reationals\Reationals\bin\Debug\Reationals.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.2 - Creating Value Types\Reationals\Reationals\obj\Debug\Reationals.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.2 - Creating Value Types\Reationals\Reationals\obj\Debug\Reationals.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.2 - Creating Value Types\Reationals\Reationals\bin\Debug\Reationals.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.2 - Creating Value Types\Reationals\Reationals\bin\Debug\Reationals.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 3.2 - Creating Value Types\Reationals\Reationals\obj\Debug\Reationals.csprojResolveAssemblyReference.cache

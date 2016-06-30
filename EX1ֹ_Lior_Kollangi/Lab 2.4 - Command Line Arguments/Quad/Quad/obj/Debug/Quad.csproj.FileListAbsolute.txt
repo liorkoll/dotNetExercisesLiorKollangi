@@ -1,0 +1,20 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\Quad\Quad\bin\Debug\Quad.exe.config
+c:\users\kollangi\documents\visual studio 2015\Projects\Quad\Quad\bin\Debug\Quad.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\Quad\Quad\bin\Debug\Quad.pdb
+c:\users\kollangi\documents\visual studio 2015\Projects\Quad\Quad\obj\Debug\Quad.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\Quad\Quad\obj\Debug\Quad.pdb
+D:\codevalue\תרגילי בית\Quad\Quad\bin\Debug\Quad.exe.config
+D:\codevalue\תרגילי בית\Quad\Quad\obj\Debug\Quad.exe
+D:\codevalue\תרגילי בית\Quad\Quad\obj\Debug\Quad.pdb
+E:\codevalue\תרגילי בית\Quad\Quad\bin\Debug\Quad.exe.config
+E:\codevalue\תרגילי בית\Quad\Quad\obj\Debug\Quad.exe
+E:\codevalue\תרגילי בית\Quad\Quad\obj\Debug\Quad.pdb
+E:\codevalue\תרגילי בית\Quad\Quad\bin\Debug\Quad.exe
+E:\codevalue\תרגילי בית\Quad\Quad\bin\Debug\Quad.pdb
+E:\codevalue\תרגילי בית\Quad\Quad\obj\Debug\Quad.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.4 - Command Line Arguments\Quad\Quad\bin\Debug\Quad.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.4 - Command Line Arguments\Quad\Quad\obj\Debug\Quad.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.4 - Command Line Arguments\Quad\Quad\obj\Debug\Quad.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.4 - Command Line Arguments\Quad\Quad\bin\Debug\Quad.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.4 - Command Line Arguments\Quad\Quad\bin\Debug\Quad.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.4 - Command Line Arguments\Quad\Quad\obj\Debug\Quad.csprojResolveAssemblyReference.cache

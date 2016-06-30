@@ -1,0 +1,12 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\Strings\Strings\bin\Debug\Strings.exe.config
+c:\users\kollangi\documents\visual studio 2015\Projects\Strings\Strings\bin\Debug\Strings.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\Strings\Strings\bin\Debug\Strings.pdb
+c:\users\kollangi\documents\visual studio 2015\Projects\Strings\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache
+c:\users\kollangi\documents\visual studio 2015\Projects\Strings\Strings\obj\Debug\Strings.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\Strings\Strings\obj\Debug\Strings.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.1 - Working With Strings\Strings\Strings\bin\Debug\Strings.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.1 - Working With Strings\Strings\Strings\obj\Debug\Strings.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.1 - Working With Strings\Strings\Strings\obj\Debug\Strings.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.1 - Working With Strings\Strings\Strings\bin\Debug\Strings.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.1 - Working With Strings\Strings\Strings\bin\Debug\Strings.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.1 - Working With Strings\Strings\Strings\obj\Debug\Strings.csprojResolveAssemblyReference.cache

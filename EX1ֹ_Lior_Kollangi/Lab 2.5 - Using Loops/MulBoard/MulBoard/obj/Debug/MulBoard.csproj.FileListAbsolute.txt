@@ -1,0 +1,20 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\MulBoard\MulBoard\bin\Debug\MulBoard.exe.config
+c:\users\kollangi\documents\visual studio 2015\Projects\MulBoard\MulBoard\bin\Debug\MulBoard.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\MulBoard\MulBoard\bin\Debug\MulBoard.pdb
+c:\users\kollangi\documents\visual studio 2015\Projects\MulBoard\MulBoard\obj\Debug\MulBoard.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\MulBoard\MulBoard\obj\Debug\MulBoard.pdb
+C:\Users\CodeValueUser\Desktop\תרגילי בית\MulBoard\MulBoard\bin\Debug\MulBoard.exe.config
+C:\Users\CodeValueUser\Desktop\תרגילי בית\MulBoard\MulBoard\obj\Debug\MulBoard.exe
+C:\Users\CodeValueUser\Desktop\תרגילי בית\MulBoard\MulBoard\obj\Debug\MulBoard.pdb
+C:\Users\CodeValueUser\Desktop\תרגילי בית\MulBoard\MulBoard\bin\Debug\MulBoard.exe
+C:\Users\CodeValueUser\Desktop\תרגילי בית\MulBoard\MulBoard\bin\Debug\MulBoard.pdb
+C:\Users\CodeValueUser\Desktop\תרגילי בית\MulBoard\MulBoard\obj\Debug\MulBoard.csprojResolveAssemblyReference.cache
+D:\codevalue\תרגילי בית\MulBoard\MulBoard\bin\Debug\MulBoard.exe.config
+D:\codevalue\תרגילי בית\MulBoard\MulBoard\obj\Debug\MulBoard.exe
+D:\codevalue\תרגילי בית\MulBoard\MulBoard\obj\Debug\MulBoard.pdb
+D:\codevalue\תרגילי בית\MulBoard\MulBoard\bin\Debug\MulBoard.exe
+D:\codevalue\תרגילי בית\MulBoard\MulBoard\bin\Debug\MulBoard.pdb
+D:\codevalue\תרגילי בית\MulBoard\MulBoard\obj\Debug\MulBoard.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.5 - Using Loops\MulBoard\MulBoard\bin\Debug\MulBoard.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.5 - Using Loops\MulBoard\MulBoard\obj\Debug\MulBoard.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\Lab 2.5 - Using Loops\MulBoard\MulBoard\obj\Debug\MulBoard.pdb

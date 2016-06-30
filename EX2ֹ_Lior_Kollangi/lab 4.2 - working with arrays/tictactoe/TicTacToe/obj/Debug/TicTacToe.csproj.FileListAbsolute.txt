@@ -1,0 +1,13 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.2 - Working With Arrays\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.2 - Working With Arrays\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.2 - Working With Arrays\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.2 - Working With Arrays\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.2 - Working With Arrays\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 4.2 - Working With Arrays\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache

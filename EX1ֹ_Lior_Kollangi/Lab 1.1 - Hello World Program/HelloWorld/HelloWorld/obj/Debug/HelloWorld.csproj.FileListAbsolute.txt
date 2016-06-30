@@ -1,0 +1,18 @@
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+c:\users\kollangi\documents\visual studio 2015\Projects\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+E:\codevalue\תרגילי בית\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\codevalue\תרגילי בית\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+E:\codevalue\תרגילי בית\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+E:\codevalue\תרגילי בית\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+E:\codevalue\תרגילי בית\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\codevalue\תרגילי בית\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX1ֹ_Lior_Kollangi\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
