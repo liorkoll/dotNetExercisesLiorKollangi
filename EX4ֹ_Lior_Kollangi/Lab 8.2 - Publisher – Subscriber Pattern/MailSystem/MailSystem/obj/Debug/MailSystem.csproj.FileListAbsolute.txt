@@ -1,1 +1,7 @@
 C:\Users\Kollangi\Dropbox\CodeValue קורס\Exercises\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\bin\Debug\MailSystem.exe.config
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\bin\Debug\MailSystem.exe.config
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\obj\Debug\MailSystem.csprojResolveAssemblyReference.cache
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\bin\Debug\MailSystem.exe
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\bin\Debug\MailSystem.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\obj\Debug\MailSystem.exe
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.2 - Publisher – Subscriber Pattern\MailSystem\MailSystem\obj\Debug\MailSystem.pdb

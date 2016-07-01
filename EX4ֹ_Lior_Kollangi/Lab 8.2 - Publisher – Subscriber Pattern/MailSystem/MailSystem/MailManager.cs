@@ -9,21 +9,21 @@ namespace MailSystem
 {
     public class MailArrivedEventArgs : EventArgs
     {
-        public string Title { get; }
-        public string Body { get; }
-        public MailArrivedEventArgs(string Title,string Body)
+        public string Title { get; private set; }
+        public string Body { get; private set; }
+        public MailArrivedEventArgs(string title,string body)
         {
-            this.Title = Title;
-            this.Body = Body;
+            this.Title = title;
+            this.Body = body;
 
         }
     }
-    class MailManager
+    public class MailManager
     {
-         event EventHandler<MailArrivedEventArgs> MailArrived;
+        public event EventHandler<MailArrivedEventArgs> MailArrived = delegate { };
 
 
-        void SimulateMailArrived(object e)
+        public void SimulateMailArrived()
         {
             OnMailArrived(new MailArrivedEventArgs("dummy title", "dummy body"));
         }
@@ -33,18 +33,9 @@ namespace MailSystem
             if (MailArrived != null)
                 MailArrived(this, e);
         }
-        static void Mm_MailArrived(object sender, MailArrivedEventArgs e)
-        {
-            Console.WriteLine("Title: " + e.Title);
-            Console.WriteLine("Body: " + e.Body);
-        }
-        static void Main(string[] args)
-        {
-            MailManager mm = new MailManager();
-            mm.MailArrived += Mm_MailArrived;
-            mm.SimulateMailArrived(null);
-            Timer timer = new Timer(new TimerCallback(mm.SimulateMailArrived),null,1000,1000);
-            Thread.Sleep(10000);
-        }       
+       
+       
+
+            
     }
 }
