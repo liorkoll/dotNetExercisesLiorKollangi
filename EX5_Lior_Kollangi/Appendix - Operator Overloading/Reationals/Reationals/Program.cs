@@ -26,7 +26,7 @@ namespace Reationals
            // Console.WriteLine(R1 * R2);
            // Console.WriteLine(R1 / R2);
             Console.WriteLine((double)(R2));
-            Rational R4= (Rational)(4);
+            Rational R4= 4;
             Console.WriteLine(R4.ToString());
 
 
@@ -36,6 +36,7 @@ namespace Reationals
     {
      
         public Rational(int Numerator, int Denominator)
+            : this()
         {
            this.Numerator = Numerator;
            this.Denominator = Denominator;
