@@ -5,3 +5,6 @@ C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX4ֹ_Lior_Kollangi\Lab 8
 C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.csprojResolveAssemblyReference.cache
 C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.exe
 C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\bin\Debug\CustomersApp.exe.config
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.exe
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.pdb

@@ -28,3 +28,11 @@ C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5
 C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
 C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.exe
 C:\Users\kollangi\Dropbox\CodeValue קורס\Exercises\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapesApp.exe
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapesApp.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapeLib.dll
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapeLib.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.pdb

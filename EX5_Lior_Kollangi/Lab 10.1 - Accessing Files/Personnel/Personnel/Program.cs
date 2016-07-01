@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Personnel
 {
-    class Program
+    class Personnel
     {
-        public static List<string> readFile(string path)
+        public List<string> ReadFile(string path)
         {
             StreamReader sr = new StreamReader(path);
             List<string> lines = new List<string>();
@@ -24,8 +24,9 @@ namespace Personnel
 
         public static void Main()
         {
-            string path = @"c:\temp\text.txt";
-            List<string> lines = readFile(path);
+            Personnel personnel = new Personnel();
+            string path = "text.txt";
+            List<string> lines = personnel.ReadFile(path);
             
             foreach (string l in lines)
             {

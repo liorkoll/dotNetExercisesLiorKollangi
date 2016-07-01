@@ -11,8 +11,8 @@ namespace FileFinder
     {
         static void Main(string[] args)
         {
-            string path = @"c:\temp";
-            string filterName = "aa";
+            string path = args[0];
+            string filterName = args[1];
             DirectoryInfo di = new DirectoryInfo(path);
             List<string> filterList = new List<string>();
             FileInfo[] fiArr = di.GetFiles();

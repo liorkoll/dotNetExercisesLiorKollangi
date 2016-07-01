@@ -13,3 +13,9 @@ C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Koll
 C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
 C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapeLib\obj\Debug\ShapeLib.dll
 C:\Users\kollangi\Dropbox\CodeValue קורס\תרגילי בית\EX2ֹ_Lior_Kollangi\Lab 5.1 - Inheritance & Polymorphism, Lab 5.2- Interfaces\shapes\ShapeLib\obj\Debug\ShapeLib.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapeLib\bin\Debug\ShapeLib.dll.config
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapeLib\bin\Debug\ShapeLib.dll
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapeLib\bin\Debug\ShapeLib.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapeLib\obj\Debug\ShapeLib.dll
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapeLib\obj\Debug\ShapeLib.pdb
+C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapeLib\obj\Debug\ShapeLib.csprojResolveAssemblyReference.cache
