@@ -11,6 +11,11 @@ namespace FileFinder
     {
         static void Main(string[] args)
         {
+            if(args.Length != 2)
+            {
+                Console.WriteLine("2 arguments expected");
+                Environment.Exit(1);
+            }
             string path = args[0];
             string filterName = args[1];
             DirectoryInfo di = new DirectoryInfo(path);
