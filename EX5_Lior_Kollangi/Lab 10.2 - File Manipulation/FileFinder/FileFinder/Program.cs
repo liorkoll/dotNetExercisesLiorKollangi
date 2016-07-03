@@ -11,27 +11,31 @@ namespace FileFinder
     {
         static void Main(string[] args)
         {
-            if(args.Length != 2)
             {
-                Console.WriteLine("2 arguments expected");
-                Environment.Exit(1);
-            }
-            string path = args[0];
-            string filterName = args[1];
-            DirectoryInfo di = new DirectoryInfo(path);
-            List<string> filterList = new List<string>();
-            FileInfo[] fiArr = di.GetFiles();
-            foreach (FileInfo f in fiArr)
-            {
-                if (f.Name.Contains(filterName))
+                if (args.Length != 2)
                 {
-                    filterList.Add(string.Format("File Name : {0} size : {1} bytes.", f.Name, f.Length));
+                    Console.WriteLine("2 arguments expected");
+                    Environment.Exit(1);
+                }
+                string path = args[0];
+                string filterName = args[1];
+                DirectoryInfo di = new DirectoryInfo(path);
+                List<string> filterList = new List<string>();
+                FileInfo[] fiArr = di.GetFiles();
+                foreach (FileInfo f in fiArr)
+                {
+                    if (f.Name.Contains(filterName))
+                    {
+                        filterList.Add(string.Format("File Name : {0} size : {1} bytes.", f.Name, f.Length));
+                    }
+                }
+
+                foreach (string s in filterList)
+                {
+                    Console.WriteLine(s);
                 }
             }
-            foreach(string s in filterList)
-            {
-                Console.WriteLine(s);
-            }
-        }   
+
         }
+    }
     }
