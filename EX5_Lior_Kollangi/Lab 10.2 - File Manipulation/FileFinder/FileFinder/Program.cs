@@ -17,22 +17,13 @@ namespace FileFinder
                     Console.WriteLine("2 arguments expected");
                     Environment.Exit(1);
                 }
-                string path = args[0];
-                string filterName = args[1];
-                DirectoryInfo di = new DirectoryInfo(path);
-                List<string> filterList = new List<string>();
-                FileInfo[] fiArr = di.GetFiles();
-                foreach (FileInfo f in fiArr)
-                {
-                    if (f.Name.Contains(filterName))
-                    {
-                        filterList.Add(string.Format("File Name : {0} size : {1} bytes.", f.Name, f.Length));
-                    }
-                }
+                List<string> listOfFilesContainsString = new List<string>();
+                FinderFilterdFiles finder = new FinderFilterdFiles();
+                finder.searchfiles(listOfFilesContainsString, args[0],args[1]);
 
-                foreach (string s in filterList)
+                foreach (string file in listOfFilesContainsString)
                 {
-                    Console.WriteLine(s);
+                    Console.WriteLine(file);
                 }
             }
 
