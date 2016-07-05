@@ -36,3 +36,6 @@ C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kolla
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.csprojResolveAssemblyReference.cache
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.exe
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.pdb
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\bin\Debug\ShapesApp.exe.config
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.exe
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX2ֹ_Lior_Kollangi\Lab 5.1\shapes\ShapesApp\obj\Debug\ShapesApp.pdb
