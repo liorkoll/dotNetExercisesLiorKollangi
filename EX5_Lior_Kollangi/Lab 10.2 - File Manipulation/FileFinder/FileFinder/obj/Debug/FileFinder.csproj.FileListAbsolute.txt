@@ -14,7 +14,6 @@ C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollang
 C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\FileFinder.exe.config
 C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\obj\Debug\FileFinder.exe
 C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\obj\Debug\FileFinder.pdb
-C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\text.txt
 C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\FileFinder.exe
 C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\bin\Debug\FileFinder.pdb
 C:\Users\kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Lab 10.2 - File Manipulation\FileFinder\FileFinder\obj\Debug\FileFinder.csprojResolveAssemblyReference.cache
