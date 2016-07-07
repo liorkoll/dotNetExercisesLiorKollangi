@@ -7,20 +7,9 @@ using System.Threading.Tasks;
 
 namespace Personnel
 {
-    class Personnel
+    class Program
     {
-        public List<string> ReadFile(string path)
-        {
-            StreamReader sr = new StreamReader(path);
-            List<string> lines = new List<string>();
-            string line;
-            while ((line = sr.ReadLine()) != null)
-            {
-                lines.Add(line);
-
-            }
-            return lines;
-        }
+       
 
         public static void Main()
         {
