@@ -11,9 +11,10 @@ namespace AttribDemo
     {
         public bool AnalayzeAssembly(Assembly assembly)
         {
-            foreach(Type t in assembly.GetTypes())
+             bool isAllAproved = true;
+            foreach (Type t in assembly.GetTypes())
             {
-                bool isAllAproved = true;
+              
                 object[] attributs = t.GetCustomAttributes(typeof(CodeReviewAttribute), false);
                 Console.WriteLine("Type name {0}  Attribute length {1}", t.Name, attributs.Length);
                 foreach (CodeReviewAttribute cra in attributs)
@@ -22,11 +23,11 @@ namespace AttribDemo
                     cra.ReviewerName, cra.ReviewerDate.ToShortDateString(), cra.Approved);
                     if (cra.Approved == false)
                     {
-                       isAllAproved =  false;
+                        isAllAproved = false ;
                     }
                 }
             }
-            return true;
+            return isAllAproved;
         }
 
         static void Main(string[] args)
