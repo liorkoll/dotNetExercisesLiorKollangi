@@ -19,7 +19,7 @@ namespace FileFinder
                 }
                 List<string> listOfFilesContainsString = new List<string>();
                 FinderFilterdFiles finder = new FinderFilterdFiles();
-                finder.searchfiles(listOfFilesContainsString, args[0],args[1]);
+                finder.Searchfiles(listOfFilesContainsString, args[0],args[1]);
 
                 foreach (string file in listOfFilesContainsString)
                 {

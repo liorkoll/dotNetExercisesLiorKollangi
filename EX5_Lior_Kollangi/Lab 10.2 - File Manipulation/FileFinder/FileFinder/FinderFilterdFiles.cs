@@ -9,7 +9,7 @@ namespace FileFinder
 {
     class FinderFilterdFiles
     {
-        public void searchfiles(List<string> filterdList, string path, string ContainsString)
+        public void Searchfiles(List<string> filterdList, string path, string containsString)
         {
             DirectoryInfo directoryInfo = new DirectoryInfo(path);
 
@@ -17,14 +17,14 @@ namespace FileFinder
             DirectoryInfo[] directoryArr = directoryInfo.GetDirectories();
             foreach (FileInfo file in filesArr)
             {
-                if (file.Name.Contains(ContainsString))
+                if (file.Name.Contains(containsString))
                 {
                     filterdList.Add(string.Format("File Name : {0} size : {1} bytes.", file.Name, file.Length));
                 }
             }
             foreach (DirectoryInfo directory in directoryArr)
             {
-                searchfiles(filterdList, directory.FullName, ContainsString);           
+                Searchfiles(filterdList, directory.FullName, containsString);           
            }
         }
           }

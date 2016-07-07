@@ -15,8 +15,7 @@ namespace Personnel
         {
             Personnel personnel = new Personnel();
             string path = "text.txt";
-            List<string> lines = personnel.ReadFile(path);
-            
+            List<string> lines = personnel.ReadFile(path);            
             foreach (string l in lines)
             {
                 Console.WriteLine(l);
