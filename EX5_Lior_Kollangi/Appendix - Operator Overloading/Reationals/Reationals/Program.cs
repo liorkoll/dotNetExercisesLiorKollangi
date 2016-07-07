@@ -12,10 +12,10 @@ namespace Reationals
      
         static void Main(string[] args)
         {
-            Rational R1 = new Rational(1, 2);
-            Rational R2 = new Rational(1,3);
-            Rational R3= R1.Mul(R2);
-            R3.Reduce();
+            Rational r1 = new Rational(1, 2);
+            Rational r2 = new Rational(1,3);
+            Rational r3= r1.Mul(r2);
+            r3.Reduce();
 
           //  Console.WriteLine(R1.ToString());
            // Console.WriteLine(R2.ToString());
@@ -25,9 +25,9 @@ namespace Reationals
            // Console.WriteLine(R1 - R2);
            // Console.WriteLine(R1 * R2);
            // Console.WriteLine(R1 / R2);
-            Console.WriteLine((double)(R2));
-            Rational R4= 4;
-            Console.WriteLine(R4.ToString());
+            Console.WriteLine((double)(r2));
+            Rational r4= 4;
+            Console.WriteLine(r4.ToString());
 
 
         }
@@ -95,13 +95,13 @@ namespace Reationals
         }
 
 
-        static int GCD(int a, int b)
+        static int Gcd(int a, int b)
         {
             return b == 0 ? a : GCD(b, a % b);
         }
         public void Reduce()
         {
-            int g = GCD(Numerator, Denominator);
+            int g = Gcd(Numerator, Denominator);
            
            int d = Denominator / g;
            int n = Numerator / g;
