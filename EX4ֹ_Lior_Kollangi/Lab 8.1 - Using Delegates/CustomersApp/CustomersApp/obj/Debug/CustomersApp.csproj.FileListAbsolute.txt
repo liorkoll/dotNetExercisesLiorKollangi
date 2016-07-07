@@ -11,3 +11,6 @@ C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kolla
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\bin\Debug\CustomersApp.exe
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\bin\Debug\CustomersApp.pdb
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\bin\Debug\CustomersApp.exe.config
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.exe
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX4ֹ_Lior_Kollangi\Lab 8.1 - Using Delegates\CustomersApp\CustomersApp\obj\Debug\CustomersApp.pdb
