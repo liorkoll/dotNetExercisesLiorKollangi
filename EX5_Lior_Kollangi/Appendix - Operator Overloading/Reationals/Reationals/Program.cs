@@ -15,21 +15,11 @@ namespace Reationals
             Rational r1 = new Rational(1, 2);
             Rational r2 = new Rational(1,3);
             Rational r3= r1.Mul(r2);
-            r3.Reduce();
-
-          //  Console.WriteLine(R1.ToString());
-           // Console.WriteLine(R2.ToString());
-           // Console.WriteLine(R3.ToString());
-           // Console.WriteLine(R1.Equals(R2));
-           // Console.WriteLine(R1 + R2);
-           // Console.WriteLine(R1 - R2);
-           // Console.WriteLine(R1 * R2);
-           // Console.WriteLine(R1 / R2);
-            Console.WriteLine((double)(r2));
+            r3.Reduce();                       
             Rational r4= 4;
             Console.WriteLine(r4.ToString());
-
-
+            double r5 = r2;
+            Console.WriteLine(r5);
         }
     }
     struct Rational
@@ -97,7 +87,7 @@ namespace Reationals
 
         static int Gcd(int a, int b)
         {
-            return b == 0 ? a : GCD(b, a % b);
+            return b == 0 ? a : Gcd(b, a % b);
         }
         public void Reduce()
         {
@@ -158,7 +148,7 @@ namespace Reationals
         {
             return r1.Div(r2);
         }
-        public static explicit operator double(Rational r)
+        public static implicit operator double(Rational r)
         {
 
             return r.Value;
