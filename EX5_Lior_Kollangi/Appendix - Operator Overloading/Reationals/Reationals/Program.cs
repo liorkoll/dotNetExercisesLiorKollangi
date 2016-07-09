@@ -14,9 +14,11 @@ namespace Reationals
         {
             Rational r1 = new Rational(1, 2);
             Rational r2 = new Rational(1,3);
-            Rational r3= r1.Mul(r2);
-            r3.Reduce();                       
-            Rational r4= 4;
+            Console.WriteLine(r1 + r2);
+            Console.WriteLine(r1 - r2);
+            Console.WriteLine(r1 * r2);
+            Console.WriteLine(r1 / r2);
+            Rational r4 = 4;
             Console.WriteLine(r4.ToString());
             double r5 = r2;
             Console.WriteLine(r5);
@@ -25,14 +27,14 @@ namespace Reationals
     struct Rational
     {
      
-        public Rational(int Numerator, int Denominator)
+        public Rational(int numerator, int denominator)
             : this()
         {
-           this.Numerator = Numerator;
-           this.Denominator = Denominator;
+           Numerator = numerator;
+           denominator = Denominator;
         }
-        public Rational(int Numerator)
-            : this(Numerator, 1)
+        public Rational(int numerator)
+            : this(numerator, 1)
         {
 
         }
