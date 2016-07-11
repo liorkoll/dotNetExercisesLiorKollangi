@@ -21,6 +21,7 @@ namespace BackgammonLogic
         public void RemoveBlackFromBar()
         {
             NumOfBlacks--;
+
         }
         public void RemoveRedFromBar()
         {
