@@ -19,11 +19,11 @@ namespace DynInvoke
             Console.WriteLine(InvokeHello(c, "Stass"));
 
         }
-        public static string InvokeHello(object o,string str)
+        public static string InvokeHello(object obj,string str)
         {
-            MethodInfo methodInfo = o.GetType().GetMethod("Hello",
+            MethodInfo methodInfo = obj.GetType().GetMethod("Hello",
                 new Type[] { typeof(string) });
-            return (string)methodInfo.Invoke(o, new object[] { str });
+            return (string)methodInfo.Invoke(obj, new object[] { str });
         }
     }
 }

@@ -16,7 +16,7 @@ namespace AttribDemo
             {
               
                 object[] attributs = t.GetCustomAttributes(typeof(CodeReviewAttribute), false);
-                Console.WriteLine("Type name {0}  Attribute length {1}", t.Name, attributs.Length);
+                Console.WriteLine("Type name {0}, Attribute length {1}", t.Name, attributs.Length);
                 foreach (CodeReviewAttribute cra in attributs)
                 {
                     Console.WriteLine("Name: {0}, Date: {1}, Approved: {2}",
