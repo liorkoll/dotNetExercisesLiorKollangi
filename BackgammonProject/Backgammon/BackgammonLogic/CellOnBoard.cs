@@ -17,7 +17,7 @@ namespace BackgammonLogic
         public CellOnBoard(int numOfCheckers,CheckerColor color)
         {
             NumOfCheckers = numOfCheckers;
-            CheckerColor = color;
+            CheckersColor = color;
         }
     }
 }
