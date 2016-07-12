@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BackgammonLogic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,18 @@ namespace BackgammonConsole
     {
         static void Main(string[] args)
         {
+            Board b = new Board();
+            BackgammonConsole bc = new BackgammonConsole();
+            bc.DrawGame(b);
+            
+         
+
+                }
+            }
         }
-    }
-}
+       
+        
+
+
+    
+

@@ -16,6 +16,20 @@ namespace BackgammonLogic
             GameBar = new Bar();
             initBoard();
         }
+        public void AddCheckerToBoard(int cellNumber, CheckerColor color)
+        {
+            if(color != Cells[cellNumber].CheckersColor)
+            {
+                Cells[cellNumber].NumOfCheckers++;
+            }
+        }
+        public void RemoveCheckerFromBoard(int cellNumber, CheckerColor color)
+        {
+            if (color != Cells[cellNumber].CheckersColor)
+            {
+                Cells[cellNumber].NumOfCheckers--;
+            }
+        }
 
         private void initBoard()
         {

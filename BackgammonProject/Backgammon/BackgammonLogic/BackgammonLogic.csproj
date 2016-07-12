@@ -40,12 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgammonManager.cs" />
     <Compile Include="Bar.cs" />
+    <Compile Include="BlackPlayer.cs" />
     <Compile Include="Board.cs" />
     <Compile Include="CellOnBoard.cs" />
     <Compile Include="CheckerColor.cs" />
     <Compile Include="Dice.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedPlayer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
