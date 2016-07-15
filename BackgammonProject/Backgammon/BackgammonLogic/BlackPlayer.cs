@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgammonLogic
 {
-    class BlackPlayer:Player
+   public class BlackPlayer:Player
     {
         public BlackPlayer(string name, CheckerColor color) : base(name, color)
         {

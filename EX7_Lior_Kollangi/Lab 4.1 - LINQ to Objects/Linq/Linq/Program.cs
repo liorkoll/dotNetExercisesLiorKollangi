@@ -32,7 +32,7 @@ namespace Linq
                             {
                                 name = p.ProcessName,
                                 id = p.Id,
-                                startTime = p.StartTime
+                                //startTime = p.StartTime
                             };
             foreach (var i in processes)
                 Console.WriteLine(i);
@@ -56,6 +56,15 @@ namespace Linq
             Console.WriteLine("total number of threads in the system:{0}", Process.GetProcesses().Sum(
                 p => p.Threads.Count));
         }
+
+
+
+
+
+
+
+
+
 
 
 

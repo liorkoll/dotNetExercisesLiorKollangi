@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace BackgammonLogic
 {
-    class BackgammonManager
+    public class BackgammonManager
     {
         public RedPlayer PlayerRed { get; set; }
         public BlackPlayer PlayerBlack { get; set; }
         public Board GameBoard { get; set; }
         public Dice GameDice { get; set; }
+        public bool IsGameOver { get; private set; }
 
         public BackgammonManager()
         {
@@ -19,7 +20,8 @@ namespace BackgammonLogic
             PlayerBlack = new BlackPlayer("Black Player", CheckerColor.Black);
             GameBoard = new Board();
             GameDice = new Dice();
-            PlayerRed.Turn = true;        
+            PlayerRed.Turn = true;
+            IsGameOver = false;
         }
     }
 }
