@@ -27,3 +27,9 @@ C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollang
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\bin\Debug\Reationals.pdb
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\obj\Debug\Reationals.exe
 C:\Users\CodeValueUser\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\obj\Debug\Reationals.pdb
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\bin\Debug\Reationals.exe.config
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\obj\Debug\Reationals.exe
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\obj\Debug\Reationals.pdb
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\obj\Debug\Reationals.csprojResolveAssemblyReference.cache
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\bin\Debug\Reationals.exe
+C:\Users\Kollangi\Source\Repos\dotNetExercisesLiorKollangi\EX5_Lior_Kollangi\Appendix - Operator Overloading\Reationals\Reationals\bin\Debug\Reationals.pdb
