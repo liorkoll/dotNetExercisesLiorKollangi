@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,17 @@ namespace Linq
 {
     public static class MyExtension
     {
+        public static bool CanAccess(this Process p)
+        {
+            try
+            {
+                return p.Handle != IntPtr.Zero;
+            }
+            catch
+            {
+                return false;
+            }
+        }
         public static void CopyTo(this object fromObj, object toObj)
         {
             var properties = from p in fromObj.GetType().GetProperties()

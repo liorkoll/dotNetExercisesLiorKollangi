@@ -21,23 +21,28 @@ namespace Linq
                                     numOfMethods = t.GetMethods().Length
                                 };
 
-            foreach (var i in types)
-                Console.WriteLine(i);
-            Console.WriteLine();
+            Console.WriteLine("public interfaces in mscrorlib assembly");
+            Console.WriteLine("----------------------------------------");
+            foreach (var type in types)
+                Console.WriteLine(type);
+            Console.WriteLine("-------------------------------------------------");
 
             var processes = from p in Process.GetProcesses()
-                            where p.Threads.Count < 5
-                            orderby p.Id
+                            where p.Threads.Count < 5 && p.CanAccess()
+            orderby p.Id
                             select new
                             {
                                 name = p.ProcessName,
                                 id = p.Id,
-                                //startTime = p.StartTime
+                                startTime = p.StartTime
                             };
-            foreach (var i in processes)
-                Console.WriteLine(i);
-            Console.WriteLine();
 
+            Console.WriteLine("processes running on your pc");
+            Console.WriteLine("-------------------------------------------------");
+
+            foreach (var process in processes)
+                Console.WriteLine(process);
+           
             var processesPriority = from p in Process.GetProcesses()
                                     where p.Threads.Count < 5
                                     orderby p.Id
@@ -50,9 +55,13 @@ namespace Linq
                                     into g
                                     orderby g.Key
                                     select g;
-            foreach (var i in processes)
-                Console.WriteLine(i);
-            Console.WriteLine();
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine("processes running on your pc grouping by their base priority");
+            Console.WriteLine("------------------------------------------------------------");
+
+            foreach (var process in processes)
+                Console.WriteLine(process);
+            Console.WriteLine("------------------------------------------------------------");
             Console.WriteLine("total number of threads in the system:{0}", Process.GetProcesses().Sum(
                 p => p.Threads.Count));
         }
