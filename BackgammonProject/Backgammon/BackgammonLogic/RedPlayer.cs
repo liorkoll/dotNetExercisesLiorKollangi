@@ -10,8 +10,12 @@ namespace BackgammonLogic
     {
         public RedPlayer(string name,CheckerColor color) : base(name, color)
         {
-
+            
         }
 
+        public override List<int> GetOptionsToMove(Dice d)
+        {
+            return null;
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace BackgammonLogic
             Name = name;
             PlayerColor = color;
         }
+        public abstract List<int> GetOptionsToMove(Board board, Dice dice);
 
     }
 }
