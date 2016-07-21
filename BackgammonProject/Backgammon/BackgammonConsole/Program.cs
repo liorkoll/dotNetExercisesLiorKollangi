@@ -11,14 +11,22 @@ namespace BackgammonConsole
     {
         static void Main(string[] args)
         {
-            Board b = new Board();
+            BackgammonManager bm = new BackgammonManager();
             BackgammonConsole bc = new BackgammonConsole();
-            bc.DrawGame(b);
-            
-         
+            bc.DrawGame(bm.GameBoard);
+            //while (!bm.IsGameOver)
+            //{
+                bm.GameDice.RollDice();
+                bc.DrawDices(bm.GameDice);
 
-                }
-            }
+
+
+            //}
+
+
+
+        }
+    }   
         }
        
         

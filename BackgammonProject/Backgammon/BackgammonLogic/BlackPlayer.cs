@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgammonLogic
 {
-    class BlackPlayer:Player
+   public class BlackPlayer:Player
     {
        public void getMoveOptions(Dice dice,Board board)
         {

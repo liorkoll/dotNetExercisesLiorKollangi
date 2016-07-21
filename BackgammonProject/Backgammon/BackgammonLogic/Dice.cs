@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BackgammonLogic
 {
-    class Dice
+    public class Dice
     {
         public int FirstCube { get; private set; }
 
@@ -16,6 +16,8 @@ namespace BackgammonLogic
 
         public int ForthCube { get; private set; }
 
+        public bool DiceDouble{get;set;}
+
         private static Random rand = new Random();
  
     public void RollDice()
@@ -24,6 +26,7 @@ namespace BackgammonLogic
             SecondCube = rand.Next(1, 7);
             if (FirstCube == SecondCube)
             {
+                DiceDouble = true;
                 ThirdCube = FirstCube;
                 ForthCube = FirstCube;
             }
@@ -33,5 +36,7 @@ namespace BackgammonLogic
             FirstCube = SecondCube = ThirdCube = ForthCube = 0;
             
         }
+       
+
     }
 }

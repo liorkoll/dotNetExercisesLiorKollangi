@@ -67,6 +67,19 @@ namespace BackgammonConsole
                 }
 
             }
+            Console.WriteLine();
         }
+
+        public void DrawDices(Dice dice)
+        {
+            Console.WriteLine("First Cube: " + dice.FirstCube);
+            Console.WriteLine("Second Cube: " + dice.SecondCube);
+            if (dice.DiceDouble)
+            {
+                Console.WriteLine("Third Cube: " + dice.ThirdCube);
+                Console.WriteLine("Forth Cube: " + dice.ForthCube);
+            }
+        }
+        
         }
 }
