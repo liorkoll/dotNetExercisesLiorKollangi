@@ -16,12 +16,22 @@ namespace BackgammonLogic
 
         public int ForthCube { get; private set; }
 
+        public bool FirstCubeState { get;  set; }
+
+        public bool SecondCubeState { get;  set; }
+
+        public bool ThirdCubeState { get;  set; }
+
+        public bool ForthCubeState { get;  set; }
+
         public bool DiceDouble{get;set;}
+        
 
         private static Random rand = new Random();
  
     public void RollDice()
     {
+            ResetCubes();
             FirstCube = rand.Next(1, 7);
             SecondCube = rand.Next(1, 7);
             if (FirstCube == SecondCube)
@@ -34,8 +44,18 @@ namespace BackgammonLogic
         public void ResetCubes()
         {
             FirstCube = SecondCube = ThirdCube = ForthCube = 0;
-            
+            FirstCubeState = SecondCubeState = ThirdCubeState = ForthCubeState = false;
+
         }
+        public bool isFinished()
+        {
+            return FirstCubeState == SecondCubeState == ThirdCubeState == ForthCubeState == true;
+        }
+        public void FinishedAll()
+        {
+            FirstCubeState = SecondCubeState = ThirdCubeState = ForthCubeState = true;
+        }
+      
        
 
     }

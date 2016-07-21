@@ -18,17 +18,48 @@ namespace BackgammonLogic
         }
         public void AddCheckerToBoard(int cellNumber, CheckerColor color)
         {
-            if(color != Cells[cellNumber].CheckersColor)
+            //   if(color != Cells[cellNumber].CheckersColor)
+            //   {
+            //     Cells[cellNumber].NumOfCheckers++;
+            //   }
+
+            if (Cells[cellNumber].NumOfCheckers == 0)
+            {
+                Cells[cellNumber] = new CellOnBoard(1, color);
+            }
+            if (Cells[cellNumber].CheckersColor != color && Cells[cellNumber].NumOfCheckers == 1)
+            {
+                Cells[cellNumber] = new CellOnBoard(1, color);
+                if(color==CheckerColor.Black)
+                {
+                    GameBar.RemoveRedFromBar();
+                }
+                else
+                {
+                    GameBar.RemoveBlackFromBar();
+                }
+            }
+            else
             {
                 Cells[cellNumber].NumOfCheckers++;
             }
+
+
         }
         public void RemoveCheckerFromBoard(int cellNumber, CheckerColor color)
         {
-            if (color != Cells[cellNumber].CheckersColor)
+            //   if (color != Cells[cellNumber].CheckersColor)
+            //   {
+            //        Cells[cellNumber].NumOfCheckers--;
+            //  }
+            if (Cells[cellNumber].NumOfCheckers >= 0)
             {
                 Cells[cellNumber].NumOfCheckers--;
             }
+
+
+
+
         }
 
         private void initBoard()
