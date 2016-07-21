@@ -9,11 +9,12 @@ namespace Linq
 {
     public static class MyExtension
     {
-        public static bool CanAccess(this Process p)
+        public static bool IsSystem(this Process p)
         {
             try
             {
-                return p.Handle != IntPtr.Zero;
+                var startTime = p.StartTime;
+                return true;
             }
             catch
             {
@@ -31,10 +32,11 @@ namespace Linq
                                  toProp = q
                              };
             foreach (var p in properties)
-                p.toProp.SetValue(fromObj, p.fromProp.GetValue(fromObj, null), null);
+                p.toProp.SetValue(toObj, p.fromProp.GetValue(fromObj, null), null);
 
 
         }
+        
 
     }
 }
