@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace BackgammonLogic
 {
-    public abstract class Player
+    public interface  Player
     {
-        public bool Turn { get; set; }
-        public CheckerColor PlayerColor { get; private set; }
-        public string Name { get; private set; }
-        public Player(string name, CheckerColor color)
-        {
-            Name = name;
-            PlayerColor = color;
-        }
-        public abstract List<int> GetOptionsToMove(Board board, Dice dice);
+         void moveTo(Dice dice, int cubeNumber, Board board, int fromChoice, int toChoice);
+         bool isMovesAppropriateToCube(int diceNum, int fromChoice, int toChoice);
+         bool isMovesAppropriateToCubeWhenCanGetOut(int diceNum, int fromChoice, int toChoice);
+         List<int> GetOptionalsMoves(Board board, int diceNum);
+        List<int> GetOptionalsMovesWhenCanGetOut(Board board, int diceNum);
+
+
+        bool IsCanGetOutFromBar(Board board, Dice dice);
+         bool IsCanGetOutFromBoard(Board board);
 
     }
 }

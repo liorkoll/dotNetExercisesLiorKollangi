@@ -16,11 +16,11 @@ namespace BackgammonLogic
 
         public BackgammonManager()
         {
-            PlayerRed = new RedPlayer("Red Player", CheckerColor.Red);
-            PlayerBlack = new BlackPlayer("Black Player", CheckerColor.Black);
+            //PlayerRed = new RedPlayer("Red Player", CheckerColor.Red);
+            //PlayerBlack = new BlackPlayer("Black Player", CheckerColor.Black);
             GameBoard = new Board();
             GameDice = new Dice();
-            PlayerRed.Turn = true;
+            //PlayerRed.Turn = true;
             IsGameOver = false;
         }
     }

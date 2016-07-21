@@ -13,18 +13,18 @@ namespace BackgammonConsole
 
         public void DrawGame(Board board)
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 1; i < 7; i++)
             {
                 Console.WriteLine();
-                for (int j = 0; j < 12; j++)
+                for (int j = 1; j < 13; j++)
                 {
 
-                    if ((board.Cells[j + 12].CheckersColor == CheckerColor.Black && (board.Cells[j + 12].NumOfCheckers > 5 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
+                    if ((board.Cells[j + 12].CheckersColor == CheckerColor.Black && (board.Cells[j + 12].NumOfCheckers > 6 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
                     {
                         Console.Write("|B|");
 
                     }
-                    else if ((board.Cells[j + 12].CheckersColor == CheckerColor.Red && (board.Cells[j + 12].NumOfCheckers > 5 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
+                    else if ((board.Cells[j + 12].CheckersColor == CheckerColor.Red && (board.Cells[j + 12].NumOfCheckers > 6 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
                     {
                         Console.Write("|R|");
 
@@ -39,21 +39,21 @@ namespace BackgammonConsole
             Console.WriteLine();
             int x = 11;
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 1; i < 7; i++)
             {
                 Console.WriteLine();
                 //Console.WriteLine("| |");
-                for (int j = 0; j < 12; j++)
+                for (int j = 1; j < 13; j++)
                 {
-                    if (j == 0)
+                    if (j == 1)
                     {
                         x = 11;
                     }
-                    if ((board.Cells[j + x].CheckersColor == CheckerColor.Black && (board.Cells[j + x].NumOfCheckers > 5 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
+                    if ((board.Cells[j + x].CheckersColor == CheckerColor.Black && (board.Cells[j + x].NumOfCheckers > 6 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
                     {
                         Console.Write("|B|");
                     }
-                    else if ((board.Cells[j + x].CheckersColor == CheckerColor.Red && (board.Cells[j + x].NumOfCheckers > 5 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
+                    else if ((board.Cells[j + x].CheckersColor == CheckerColor.Red && (board.Cells[j + x].NumOfCheckers > 6 - i || board.Cells[j + 12].NumOfCheckers >= 5)))
                     {
                         Console.Write("|R|");
 
