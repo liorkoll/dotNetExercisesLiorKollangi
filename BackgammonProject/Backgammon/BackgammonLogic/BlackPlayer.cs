@@ -8,9 +8,15 @@ namespace BackgammonLogic
 {
     class BlackPlayer:Player
     {
-        public BlackPlayer(string name, CheckerColor color) : base(name, color)
+       public void getMoveOptions(Dice dice,Board board)
         {
+            //check if his color on the bar
+            if(board.GameBar.NumOfBlacks == 0)
+            {
+                List <int> moves = new List<int>();
 
+            }
         }
+
     }
 }
