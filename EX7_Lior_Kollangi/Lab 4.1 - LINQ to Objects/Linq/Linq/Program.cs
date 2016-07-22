@@ -13,13 +13,13 @@ namespace Linq
         static void Main(string[] args)
         {
             var types = from t in typeof(string).Assembly.GetExportedTypes()
-                                where t.IsInterface
-                                orderby t.Name
-                                select new
-                                {
-                                    name = t.Name,
-                                    numOfMethods = t.GetMethods().Length
-                                };
+                        where t.IsInterface
+                        orderby t.Name
+                        select new
+                        {
+                            name = t.Name,
+                            numOfMethods = t.GetMethods().Length
+                        };
 
             Console.WriteLine("public interfaces in mscrorlib assembly");
             Console.WriteLine("----------------------------------------");
@@ -28,8 +28,8 @@ namespace Linq
             Console.WriteLine("-------------------------------------------------");
 
             var processes = from p in Process.GetProcesses()
-                            where p.Threads.Count < 5 && p.CanAccess()
-            orderby p.Id
+                            where p.Threads.Count < 5 && p.IsSystem()
+                            orderby p.Id
                             select new
                             {
                                 name = p.ProcessName,
@@ -42,7 +42,7 @@ namespace Linq
 
             foreach (var process in processes)
                 Console.WriteLine(process);
-           
+
             var processesPriority = from p in Process.GetProcesses()
                                     where p.Threads.Count < 5
                                     orderby p.Id
@@ -64,19 +64,23 @@ namespace Linq
             Console.WriteLine("------------------------------------------------------------");
             Console.WriteLine("total number of threads in the system:{0}", Process.GetProcesses().Sum(
                 p => p.Threads.Count));
+
+            Person p1 = new Person { Address = "Ben gourion 12 Tel Aviv", Name = "Lior", Age = 26 };
+
+            Student s1 = new Student { Id = "201658853", Grade = 100,Address="shinkin 22, Tel Aviv",Name="Moshe", Age=28 };
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine("before exec CopyTo Method ");
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine(s1);
+
+            p1.CopyTo(s1);
+
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine("after exec CopyTo Method ");
+            Console.WriteLine("------------------------------------------------------------");
+            Console.WriteLine(s1);
+
+
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

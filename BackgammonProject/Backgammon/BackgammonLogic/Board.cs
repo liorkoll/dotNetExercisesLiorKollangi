@@ -12,39 +12,71 @@ namespace BackgammonLogic
         public Bar GameBar { get; set; }
         public Board()
         {
-            Cells = new List<CellOnBoard>(new CellOnBoard[24]);
+            Cells = new List<CellOnBoard>(new CellOnBoard[26]);
             GameBar = new Bar();
             initBoard();
         }
         public void AddCheckerToBoard(int cellNumber, CheckerColor color)
         {
-            if(color != Cells[cellNumber].CheckersColor)
+            //   if(color != Cells[cellNumber].CheckersColor)
+            //   {
+            //     Cells[cellNumber].NumOfCheckers++;
+            //   }
+
+            if (Cells[cellNumber].NumOfCheckers == 0)
+            {
+                Cells[cellNumber] = new CellOnBoard(1, color);
+            }
+            if (Cells[cellNumber].CheckersColor != color && Cells[cellNumber].NumOfCheckers == 1)
+            {
+                Cells[cellNumber] = new CellOnBoard(1, color);
+                if(color==CheckerColor.Black)
+                {
+                    GameBar.RemoveRedFromBar();
+                }
+                else
+                {
+                    GameBar.RemoveBlackFromBar();
+                }
+            }
+            else
             {
                 Cells[cellNumber].NumOfCheckers++;
             }
+
+
         }
         public void RemoveCheckerFromBoard(int cellNumber, CheckerColor color)
         {
-            if (color != Cells[cellNumber].CheckersColor)
+            //   if (color != Cells[cellNumber].CheckersColor)
+            //   {
+            //        Cells[cellNumber].NumOfCheckers--;
+            //  }
+            if (Cells[cellNumber].NumOfCheckers >= 0)
             {
                 Cells[cellNumber].NumOfCheckers--;
             }
+
+
+
+
         }
 
         private void initBoard()
         {
-            for(int i=0;i<24; i++)
+            for(int i=0;i<26; i++)
             {
                 Cells[i] = new CellOnBoard();
             }
-            Cells[0] = new CellOnBoard(2, CheckerColor.Red);
-            Cells[5] = new CellOnBoard(5, CheckerColor.Black);
-            Cells[7] = new CellOnBoard(3, CheckerColor.Black);
-            Cells[11] = new CellOnBoard(5, CheckerColor.Red);
-            Cells[12] = new CellOnBoard(5, CheckerColor.Black);
-            Cells[16] = new CellOnBoard(3, CheckerColor.Red);
-            Cells[18] = new CellOnBoard(5, CheckerColor.Red);
-            Cells[23] = new CellOnBoard(2, CheckerColor.Black);
+            // O and 25 is out of game 
+            Cells[1] = new CellOnBoard(2, CheckerColor.Red);
+            Cells[6] = new CellOnBoard(5, CheckerColor.Black);
+            Cells[8] = new CellOnBoard(3, CheckerColor.Black);
+            Cells[12] = new CellOnBoard(5, CheckerColor.Red);
+            Cells[13] = new CellOnBoard(5, CheckerColor.Black);
+            Cells[17] = new CellOnBoard(3, CheckerColor.Red);
+            Cells[19] = new CellOnBoard(5, CheckerColor.Red);
+            Cells[24] = new CellOnBoard(2, CheckerColor.Black);
         }
     }
 }
