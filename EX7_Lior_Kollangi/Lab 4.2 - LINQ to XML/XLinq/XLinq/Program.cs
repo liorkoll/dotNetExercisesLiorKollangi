@@ -68,47 +68,24 @@ namespace XLinq
 
 
             var TypesSortedByMethods = from t in types
-                                       let methods = t.Descendants("Methods").Count()
-                                       orderby methods descending
+                                       let methodsCount = t.Descendants("Methods").Count()
+                                       let propertiesCount= t.Descendants("Property").Count()
+                                       orderby methodsCount descending
                                        select new
                                        {
                                            Name = (string)t.Attribute("FullName"),
-                                           Methods = methods,
-                                           Properties = t.Descendants("Property").Count()
+                                           Methods = methodsCount,
+                                           Properties = propertiesCount
                                        };
 
-            //var MethodsInfo = from m in xmlTypes1.Descendants("Method")
-            //                  group m by m.Parent.Parent.Attribute("Name") into g
-            //                  select new
-            //                  {
-            //                      TypeName = g.Key,
-            //                      Count = g.Count()
-            //                  };
-            //var PropertyInfo = from p in xmlTypes1.Descendants("Property")
-            //                   group p by p.Parent.Parent.Attribute("Name") into g
-            //                   select new
-            //                   {
-            //                       TypeName = g.Key,
-            //                       Count = g.Count()
-            //                   };
-            //var xmlTypes2 = new XElement("Types", from metodsGroup in MethodsInfo
-            //                                        from propertyGroup in PropertyInfo
-            //                                        where metodsGroup.TypeName == propertyGroup.TypeName
-            //                                        orderby metodsGroup.Count descending
-            //                                        select new XElement("Type", new XAttribute("Name", (string)metodsGroup.TypeName ?? "T"),
-            //                                                                    new XAttribute("Methods", metodsGroup.Count),
-            //                                                                    new XAttribute("Properties", propertyGroup.Count )));
-
-
-
-            //xmlTypes2.Save("xmlTypes2.xml");
-
-           // foreach (var i in TypesSortedByMethods)
-            // Console.WriteLine(i);
-
-
-
-
+   XDocument xdoc = new XDocument(new XElement("Types",
+      from type in TypesSortedByMethods 
+           select new XElement("Type", 
+               new XAttribute("FullName", type.Name),
+                             new XAttribute("MethodsCount", type.Methods),
+                             new XAttribute("PropertiesCount", type.Properties))));
+            
+            xdoc.Save("xmlTypes2.xml");
 
 
 
