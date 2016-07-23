@@ -16,7 +16,7 @@ namespace Linq
                         where t.IsInterface | t.IsPublic
                         orderby t.Name
                         select new
-                        {
+                        {                        
                             name = t.Name,
                             numOfMethods = t.GetMethods().Length
                         };
