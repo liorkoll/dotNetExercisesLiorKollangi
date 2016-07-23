@@ -174,5 +174,20 @@ namespace BackgammonLogic
             return true;
 
         }
+        public bool CheckIfCanGetOutThisCell(Board board, int diceNumber, int from, int to)
+
+        {
+            int num = from -to;
+            if (num == diceNumber) return true;
+            for (int i = 6; i > from; i--)
+            {
+                if (board.Cells[i].CheckersColor == CheckerColor.Red && board.Cells[i].NumOfCheckers > 0)
+
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
     }
 }
