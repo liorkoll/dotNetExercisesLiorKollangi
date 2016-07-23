@@ -13,7 +13,7 @@ namespace Linq
         static void Main(string[] args)
         {
             var types = from t in typeof(string).Assembly.GetExportedTypes()
-                        where t.IsInterface
+                        where t.IsInterface | t.IsPublic
                         orderby t.Name
                         select new
                         {
