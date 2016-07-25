@@ -80,6 +80,20 @@ namespace BackgammonConsole
                 Console.WriteLine("Forth Cube: " + dice.ForthCube);
             }
         }
-        
+
+        public void DrawGame2(Board board,Bar bar)
+        {
+           for(int i = 1; i < board.Cells.Count-1; i++)
+            {
+                if (i == 7 || i == 13 || i == 19) Console.WriteLine();
+
+                Console.Write("["+i +":"+board.Cells[i].NumOfCheckers + " " + board.Cells[i].CheckersColor+"]");
+            }
+            Console.WriteLine();
+            Console.WriteLine("bar - blacks: " + bar.NumOfBlacks);
+            Console.WriteLine("bar - reds: " + bar.NumOfReds);
+
         }
+
+    }
 }
