@@ -13,9 +13,9 @@ namespace PrimesCalcilator
 {
     public partial class Form1 : Form
     {
-        //public static CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-        // public static CancellationToken cancellationToken = cancellationTokenSource.Token;
-        public static AutoResetEvent are = new AutoResetEvent(true);
+        public static CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+        public static CancellationToken cancellationToken = cancellationTokenSource.Token;
+        public static AutoResetEvent are = new AutoResetEvent(false);
 
         public Form1()
         {
@@ -29,15 +29,17 @@ namespace PrimesCalcilator
            var synchronizationContext = SynchronizationContext.Current;
 
 
-          // if (cancellationToken != null) cancellationTokenSource = new CancellationTokenSource();
-           Task.Run (()=>   
+            if (cancellationToken != null) cancellationTokenSource = new CancellationTokenSource();
+            Task.Delay(5000);
+
+            Task.Run (()=>   
             {
                
                 int [] primes = pc.CalcPrimes(int.Parse(textBox1.Text),int.Parse(textBox2.Text));
-                are.WaitOne();
-                //cancellationToken.ThrowIfCancellationRequested();
+                are.Set();
+                cancellationToken.ThrowIfCancellationRequested();
                 
-                //Task.Delay(10000);
+               
              synchronizationContext.Send(o =>
 
            {
@@ -56,10 +58,14 @@ namespace PrimesCalcilator
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //if(cancellationToken!=null) cancellationTokenSource.Cancel();
-            are.Set();
+            are.WaitOne();
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if(cancellationToken!=null) cancellationTokenSource.Cancel();
+
+        }
     }
 }
