@@ -93,9 +93,9 @@ namespace BackgammonLogic
                     {
                         board.AddCheckerToBoard(diceNumber, CheckerColor.Red);
                         gameBar.RemoveRedFromBar();
-
+                        SetCubeState(cubeNumber, dice);
                     }
-                    SetCubeState(cubeNumber, dice);
+           
                 }
 
                 else {

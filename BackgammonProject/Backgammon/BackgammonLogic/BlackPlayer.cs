@@ -17,9 +17,9 @@ namespace BackgammonLogic
             this.Color = color;
         }
         public bool IsMyTurn { get; set; }
+       
 
-
-        public void moveTo(Dice dice, int cubeNumber, Board board,Bar gameBar, int fromChoice, int toChoice)
+        public int GetDiceNumber(int cubeNumber, Dice dice)
         {
             int diceNumber = 0;
             if (cubeNumber == 1)
@@ -38,6 +38,30 @@ namespace BackgammonLogic
             {
                 diceNumber = dice.ForthCube;
             }
+            return diceNumber;
+        }
+        public void SetCubeState(int cubeNumber, Dice dice)
+        {
+            if (cubeNumber == 1)
+            {
+                dice.FirstCubeState = true;
+            }
+            if (cubeNumber == 2)
+            {
+                dice.SecondCubeState = true;
+            }
+            if (cubeNumber == 3)
+            {
+                dice.ThirdCubeState = true;
+            }
+            if (cubeNumber == 4)
+            {
+                dice.ForthCubeState = true;
+            }
+        }
+        public void moveTo(Dice dice, int cubeNumber, Board board,Bar gameBar, int fromChoice, int toChoice)
+        {
+            int diceNumber = GetDiceNumber(cubeNumber, dice);
 
             //check if is in the bar
 
@@ -49,22 +73,7 @@ namespace BackgammonLogic
                     {
                         board.AddCheckerToBoard(25-diceNumber, CheckerColor.Black);
                         gameBar.RemoveBlackFromBar();
-                        if (cubeNumber == 1)
-                        {
-                            dice.FirstCubeState = true;
-                        }
-                        if (cubeNumber == 2)
-                        {
-                            dice.SecondCubeState = true;
-                        }
-                        if (cubeNumber == 3)
-                        {
-                            dice.ThirdCubeState = true;
-                        }
-                        if (cubeNumber == 4)
-                        {
-                            dice.ForthCubeState = true;
-                        }
+                        SetCubeState(cubeNumber, dice);
                     }
                 }
 
@@ -78,34 +87,16 @@ namespace BackgammonLogic
 
             else {
                 //check if can move with this number 
-                if (IsCanGetOutFromBoard(board))
+                if (IsCanGetOutFromBoard(board) && toChoice==0)
                 {
-                 if ((board.Cells[fromChoice].CheckersColor == CheckerColor.Black) &&
-                (board.Cells[toChoice].CheckersColor == CheckerColor.Black || (board.Cells[toChoice].NumOfCheckers <= 1))
-                && isMovesAppropriateToCubeWhenCanGetOut(diceNumber, fromChoice, toChoice))
+                    if (isMovesAppropriateToCubeWhenCanGetOut(diceNumber, fromChoice, toChoice) && CheckIfCanGetOutThisCell(board, diceNumber, fromChoice, toChoice))
                     {
-                        board.RemoveCheckerFromBoard(fromChoice, CheckerColor.Black);
-                        if (cubeNumber == 1)
-                        {
-                            dice.FirstCubeState = true;
-                        }
-                        if (cubeNumber == 2)
-                        {
-                            dice.SecondCubeState = true;
-                        }
-                        if (cubeNumber == 3)
-                        {
-                            dice.ThirdCubeState = true;
-                        }
-                        if (cubeNumber == 4)
-                        {
-                            dice.ForthCubeState = true;
-                        }
-
+                        board.RemoveCheckerFromBoard(fromChoice, CheckerColor.Red);
+                        SetCubeState(cubeNumber, dice);
                     }
 
-
-                }
+                    }
+                
                 else {
 
                     if ((board.Cells[fromChoice].CheckersColor == CheckerColor.Black) &&
@@ -116,22 +107,8 @@ namespace BackgammonLogic
 
                         board.AddCheckerToBoard(toChoice, CheckerColor.Black);
                         board.RemoveCheckerFromBoard(fromChoice, CheckerColor.Black);
-                        if (cubeNumber == 1)
-                        {
-                            dice.FirstCubeState = true;
-                        }
-                        if (cubeNumber == 2)
-                        {
-                            dice.SecondCubeState = true;
-                        }
-                        if (cubeNumber == 3)
-                        {
-                            dice.ThirdCubeState = true;
-                        }
-                        if (cubeNumber == 4)
-                        {
-                            dice.ForthCubeState = true;
-                        }
+                        SetCubeState(cubeNumber, dice);
+
 
                     }
                 }
@@ -144,7 +121,7 @@ namespace BackgammonLogic
         }
         public bool isMovesAppropriateToCubeWhenCanGetOut(int diceNum, int fromChoice, int toChoice)
         {
-            return diceNum >= fromChoice - toChoice;
+            return diceNum <= fromChoice - toChoice;
         }
         public List<int> GetOptionalsMoves(Board board,int diceNum)
         {
@@ -184,9 +161,9 @@ namespace BackgammonLogic
         public bool CheckIfCanGetOutThisCell(Board board,int diceNumber,int from,int to)
 
         {
-            int num = from - to;
+            int num =  to- from;
             if (num == diceNumber) return true;
-           for(int i=18;i< from; i++)
+           for(int i=6;i> from; i--)
             {
                 if (board.Cells[i].CheckersColor == CheckerColor.Black && board.Cells[i].NumOfCheckers>0)
 

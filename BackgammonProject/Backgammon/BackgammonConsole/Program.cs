@@ -24,10 +24,10 @@ namespace BackgammonConsole
 
                 while (!bm.GameDice.isFinished())
                 {
-                    Console.WriteLine("num of black" + bm.GameBar.NumOfBlacks);
-                    Console.WriteLine("num of reds" + bm.GameBar.NumOfReds);
+                   
                     Console.WriteLine("*************************************");
                     if (bm.PlayerRed.IsMyTurn == true) {
+                        //bm.play
                         //if (bm.PlayerRed.IsCanPlay(bm.GameBoard, bm.GameDice))
                         //{
                             Console.WriteLine("RedPlayer please choose options to move");

@@ -81,24 +81,21 @@ namespace BackgammonConsole
             }
         }
 
-        public void DrawGame2(Board board,Bar bar)
+        public void DrawPlay(Player player)
         {
-           for(int i = 1; i < board.Cells.Count-1; i++)
+            if (player is BlackPlayer)
             {
-                if (i == 7 || i == 13 || i == 19) Console.WriteLine();
-
-                Console.Write("["+i +":"+board.Cells[i].NumOfCheckers + " " + board.Cells[i].CheckersColor+"]");
+                Console.WriteLine("Black Player Turn");
             }
-            Console.WriteLine();
-            Console.WriteLine("bar - blacks: " + bar.NumOfBlacks);
-            Console.WriteLine("bar - reds: " + bar.NumOfReds);
-
+            else
+            {
+                Console.WriteLine("Red Player Turn");
+            }
         }
-
 
 
 
         }
 
     }
-}
+

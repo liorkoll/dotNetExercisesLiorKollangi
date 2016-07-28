@@ -25,5 +25,6 @@ namespace BackgammonLogic
             PlayerRed.IsMyTurn = true;
             IsGameOver = false;
         }
+      
     }
 }

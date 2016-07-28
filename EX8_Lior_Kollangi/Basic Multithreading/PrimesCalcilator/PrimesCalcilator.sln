@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesCalcilator", "PrimesCalcilator\PrimesCalcilator.csproj", "{A73CB532-93A5-4B01-935A-1BDDA51249BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesCalculator", "PrimesCalcilator\PrimesCalculator.csproj", "{A73CB532-93A5-4B01-935A-1BDDA51249BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
