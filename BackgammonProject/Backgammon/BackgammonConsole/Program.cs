@@ -14,35 +14,39 @@ namespace BackgammonConsole
             BackgammonManager bm = new BackgammonManager();
             BackgammonConsole bc = new BackgammonConsole();
             bc.DrawGame(bm.GameBoard);
+           
 
             while (!bm.IsGameOver)
             {
                 bm.GameDice.RollDice();
                 bc.DrawDices(bm.GameDice);
-              
-                
+
+
                 while (!bm.GameDice.isFinished())
                 {
-                    Console.WriteLine("num of black"+bm.GameBar.NumOfBlacks);
+                    Console.WriteLine("num of black" + bm.GameBar.NumOfBlacks);
                     Console.WriteLine("num of reds" + bm.GameBar.NumOfReds);
                     Console.WriteLine("*************************************");
-                    if (bm.PlayerRed.IsMyTurn == true)
-                    {
-                        Console.WriteLine("RedPlayer please choose options to move");
-                        Console.WriteLine("cube number?");
-                        int cube = int.Parse(Console.ReadLine());
-                        Console.Write("move from?");
-                        int from = int.Parse(Console.ReadLine());
-                        Console.Write("move to?");
-                        int to = int.Parse(Console.ReadLine());
-                        bm.PlayerRed.moveTo(bm.GameDice, cube, bm.GameBoard,bm.GameBar, from, to);
-                        bc.DrawGame(bm.GameBoard);
-                        if (bm.GameDice.isFinished())
-                        {
-                            bm.PlayerRed.IsMyTurn = false;
-                            bm.PlayerBlack.IsMyTurn = true;
-                        }
+                    if (bm.PlayerRed.IsMyTurn == true) {
+                        //if (bm.PlayerRed.IsCanPlay(bm.GameBoard, bm.GameDice))
+                        //{
+                            Console.WriteLine("RedPlayer please choose options to move");
+                            Console.WriteLine("cube number?");
+                            int cube = int.Parse(Console.ReadLine());
+                            Console.Write("move from?");
+                            int from = int.Parse(Console.ReadLine());
+                            Console.Write("move to?");
+                            int to = int.Parse(Console.ReadLine());
+                            bm.PlayerRed.moveTo(bm.GameDice, cube, bm.GameBoard, bm.GameBar, from, to);
+                            bc.DrawGame(bm.GameBoard);
+                            if (bm.GameDice.isFinished())
+                            {
+                                bm.PlayerRed.IsMyTurn = false;
+                                bm.PlayerBlack.IsMyTurn = true;
+                            }
+                        //}
                     }
+                
                     else
                     {
                         Console.WriteLine("BlackPlayer please choose options to move");
@@ -52,7 +56,7 @@ namespace BackgammonConsole
                         int from = int.Parse(Console.ReadLine());
                         Console.Write("move to?");
                         int to = int.Parse(Console.ReadLine());
-                        bm.PlayerBlack.moveTo(bm.GameDice, cube, bm.GameBoard, from, to);
+                        bm.PlayerBlack.moveTo(bm.GameDice, cube, bm.GameBoard,bm.GameBar, from, to);
                         bc.DrawGame(bm.GameBoard);
                         if (bm.GameDice.isFinished())
                         {
