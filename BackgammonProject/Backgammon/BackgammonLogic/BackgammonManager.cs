@@ -12,15 +12,17 @@ namespace BackgammonLogic
         public BlackPlayer PlayerBlack { get; set; }
         public Board GameBoard { get; set; }
         public Dice GameDice { get; set; }
+        public Bar GameBar { get; set; }
         public bool IsGameOver { get; private set; }
 
         public BackgammonManager()
         {
-            //PlayerRed = new RedPlayer("Red Player", CheckerColor.Red);
-            //PlayerBlack = new BlackPlayer("Black Player", CheckerColor.Black);
+            PlayerRed = new RedPlayer("Red Player", CheckerColor.Red);
+            PlayerBlack = new BlackPlayer("Black Player", CheckerColor.Black);
             GameBoard = new Board();
             GameDice = new Dice();
-            //PlayerRed.Turn = true;
+            GameBar = new Bar();
+            PlayerRed.IsMyTurn = true;
             IsGameOver = false;
         }
     }

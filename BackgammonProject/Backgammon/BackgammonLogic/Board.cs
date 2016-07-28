@@ -27,16 +27,16 @@ namespace BackgammonLogic
             {
                 Cells[cellNumber] = new CellOnBoard(1, color);
             }
-            if (Cells[cellNumber].CheckersColor != color && Cells[cellNumber].NumOfCheckers == 1)
+            else if (Cells[cellNumber].CheckersColor != color && Cells[cellNumber].NumOfCheckers == 1)
             {
                 Cells[cellNumber] = new CellOnBoard(1, color);
-                if(color==CheckerColor.Black)
+                if (color == CheckerColor.Black)
                 {
-                    GameBar.RemoveRedFromBar();
+                    GameBar.AddRedToBar();
                 }
                 else
                 {
-                    GameBar.RemoveBlackFromBar();
+                    GameBar.AddBlackToBar();
                 }
             }
             else
@@ -68,15 +68,19 @@ namespace BackgammonLogic
             {
                 Cells[i] = new CellOnBoard();
             }
+
+           
             // O and 25 is out of game 
-            Cells[1] = new CellOnBoard(2, CheckerColor.Red);
+           // Cells[1] = new CellOnBoard(2, CheckerColor.Red);
             Cells[6] = new CellOnBoard(5, CheckerColor.Black);
-            Cells[8] = new CellOnBoard(3, CheckerColor.Black);
-            Cells[12] = new CellOnBoard(5, CheckerColor.Red);
+            //Cells[8] = new CellOnBoard(3, CheckerColor.Black);
+            //Cells[12] = new CellOnBoard(5, CheckerColor.Red);
             Cells[13] = new CellOnBoard(5, CheckerColor.Black);
-            Cells[17] = new CellOnBoard(3, CheckerColor.Red);
+            //Cells[17] = new CellOnBoard(3, CheckerColor.Red);
             Cells[19] = new CellOnBoard(5, CheckerColor.Red);
             Cells[24] = new CellOnBoard(2, CheckerColor.Black);
+
+
         }
     }
 }

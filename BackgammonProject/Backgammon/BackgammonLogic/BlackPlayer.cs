@@ -8,9 +8,18 @@ namespace BackgammonLogic
 {
     public class BlackPlayer:Player
     {
+        private string Name { get; set; }
+        private CheckerColor Color { get; set; }
+
+        public BlackPlayer(string name, CheckerColor color)
+        {
+            this.Name = name;
+            this.Color = color;
+        }
+        public bool IsMyTurn { get; set; }
 
 
-        public void moveTo(Dice dice, int cubeNumber, Board board, int fromChoice, int toChoice)
+        public void moveTo(Dice dice, int cubeNumber, Board board,Bar gameBar, int fromChoice, int toChoice)
         {
             int diceNumber = 0;
             if (cubeNumber == 1)
@@ -31,14 +40,15 @@ namespace BackgammonLogic
             }
 
             //check if is in the bar
-            if (board.GameBar.NumOfBlacks > 0)
+
+            if (gameBar.NumOfBlacks > 0)
             {
                 if (IsCanGetOutFromBar(board, dice))
                 {
-                    if (board.Cells[diceNumber].CheckersColor == CheckerColor.Black || board.Cells[diceNumber].NumOfCheckers <= 1)
+                    if (board.Cells[25-diceNumber].CheckersColor == CheckerColor.Black || board.Cells[25-diceNumber].NumOfCheckers <= 1)
                     {
-                        board.AddCheckerToBoard(diceNumber, CheckerColor.Black);
-                        board.GameBar.RemoveBlackFromBar();
+                        board.AddCheckerToBoard(25-diceNumber, CheckerColor.Black);
+                        gameBar.RemoveBlackFromBar();
                         if (cubeNumber == 1)
                         {
                             dice.FirstCubeState = true;
@@ -153,10 +163,9 @@ namespace BackgammonLogic
 
             public bool IsCanGetOutFromBar(Board board,Dice dice)
         {
-         return   (board.Cells[25-dice.FirstCube].CheckersColor == CheckerColor.Black || board.Cells[25-dice.FirstCube].NumOfCheckers <= 1)
-               || (board.Cells[25-dice.SecondCube].CheckersColor == CheckerColor.Black || board.Cells[25-dice.SecondCube].NumOfCheckers <= 1);
+              return (board.Cells[25-dice.FirstCube].CheckersColor == CheckerColor.Black || board.Cells[25-dice.FirstCube].NumOfCheckers <= 1)
+                  || (board.Cells[25-dice.SecondCube].CheckersColor == CheckerColor.Black || board.Cells[25-dice.SecondCube].NumOfCheckers <= 1);
 
-            
 
         }
         public bool IsCanGetOutFromBoard(Board board)

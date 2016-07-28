@@ -25,6 +25,7 @@ namespace BackgammonLogic
         public bool ForthCubeState { get;  set; }
 
         public bool DiceDouble{get;set;}
+        public bool Finished { get; set; }
         
 
         private static Random rand = new Random();
@@ -49,7 +50,11 @@ namespace BackgammonLogic
         }
         public bool isFinished()
         {
-            return FirstCubeState == SecondCubeState == ThirdCubeState == ForthCubeState == true;
+            if (!DiceDouble)
+            {
+                return FirstCubeState && SecondCubeState; 
+            }
+            return FirstCubeState && SecondCubeState && ThirdCubeState && ForthCubeState;
         }
         public void FinishedAll()
         {
