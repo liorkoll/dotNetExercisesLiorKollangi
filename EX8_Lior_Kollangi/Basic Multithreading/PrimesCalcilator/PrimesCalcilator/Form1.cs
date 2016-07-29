@@ -31,16 +31,15 @@ namespace PrimesCalcilator
             var synchronizationContext = SynchronizationContext.Current;
 
 
-            Task.Delay(5000);
 
             Task.Run(() =>
             {
 
-                int[] primes = pc.CalcPrimes(int.Parse(textBox1.Text), int.Parse(textBox2.Text),cancellationToken);
+                List<int> primes = pc.CalcPrimes(int.Parse(textBox1.Text), int.Parse(textBox2.Text),cancellationToken);
 
                 synchronizationContext.Send(o =>
                 {
-                    for (int i = 0; i < primes.Length; i++)
+                    for (int i = 0; i < primes.Count; i++)
                     {
                         listBox1.Items.Add(primes[i].ToString());
                     }

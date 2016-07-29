@@ -11,24 +11,22 @@ namespace PrimesCalcilator
 {
     class PrimesCalc
     {
-        public ManualResetEvent waitHandle {get;set;}//true
+        public ManualResetEvent waitHandle {get;set;}
 
         public PrimesCalc()
         {
             waitHandle = new ManualResetEvent(true);
         }
-        public int[] CalcPrimes(int x, int y, CancellationToken cancellationToken)
+        public List<int> CalcPrimes(int x, int y, CancellationToken cancellationToken)
         {
             int count = 0;
-            ArrayList list = new ArrayList();
+            List<int> list = new List<int>();
 
             for (int i = x; i < y; i++)
             {
-                Thread.Sleep(100);
+                //Thread.Sleep(100);
                 for (int j = 1; j < y; j++)
-                {
-                  
-                   
+                {                                     
                     if (i % j == 0)
                     {
                         count++;
@@ -39,8 +37,7 @@ namespace PrimesCalcilator
                     list.Add(i);
                 }
                 if (!waitHandle.WaitOne(0))
-                {
-                   
+                {                   
                     break;
                 }
                 if (cancellationToken.IsCancellationRequested)
@@ -49,9 +46,8 @@ namespace PrimesCalcilator
                 }
                 count = 0;
             }
-            int[] ans = new int[list.Count];
-            list.CopyTo(ans);
-            return ans;
+           
+            return list;
         }
     }
 }
