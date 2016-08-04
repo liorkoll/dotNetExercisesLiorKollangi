@@ -40,6 +40,7 @@ namespace BackgammonLogic
             }
             //else
             {
+
                 IsMyTurn = GetOptionalsMoves(board,gameBar, dice.FirstCube).Count != 0 || GetOptionalsMoves(board,gameBar, dice.SecondCube).Count != 0; ;
             }
             if (!IsMyTurn)
