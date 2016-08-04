@@ -14,14 +14,18 @@ namespace SyncDemo
         static void Main(string[] args)
         {
             Mutex mutex = new Mutex(false, "SyncFileMutex");
-            StreamWriter writer = new StreamWriter(@"data.txt",true);
-            for(int i = 0; i < 1000; i++)
+             for (int i = 0; i < 10000; i++)
             {
-                mutex.WaitOne();
-                writer.Write("Proceess Id:{0}",Process.GetCurrentProcess().Id);
+               mutex.WaitOne();
+                StreamWriter writer = new StreamWriter(@"data1.txt", true);
+                writer.WriteLine("Writing to Process " + Process.GetCurrentProcess().Id);
+                Console.WriteLine("Process ID: {0}", Process.GetCurrentProcess().Id);
+                writer.Close();
                 mutex.ReleaseMutex();
             }
             Console.ReadLine();
         }
+
     }
 }
+    

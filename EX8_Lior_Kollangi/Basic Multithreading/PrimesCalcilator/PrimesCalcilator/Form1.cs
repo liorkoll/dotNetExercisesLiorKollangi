@@ -13,58 +13,52 @@ namespace PrimesCalcilator
 {
     public partial class Form1 : Form
     {
-        public static CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-        public static CancellationToken cancellationToken = cancellationTokenSource.Token;
+        private CancellationTokenSource cancellationTokenSource;
+        private CancellationToken cancellationToken; 
         public static AutoResetEvent are = new AutoResetEvent(false);
-
+        PrimesCalc pc = new PrimesCalc();
         public Form1()
         {
             InitializeComponent();
+            cancellationTokenSource = new CancellationTokenSource();
+            cancellationToken = cancellationTokenSource.Token;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-           PrimesCalc pc = new PrimesCalc();
-           var synchronizationContext = SynchronizationContext.Current;
 
 
-            if (cancellationToken != null) cancellationTokenSource = new CancellationTokenSource();
-            Task.Delay(5000);
+            var synchronizationContext = SynchronizationContext.Current;
 
-            Task.Run (()=>   
+
+
+            Task.Run(() =>
             {
-               
-                int [] primes = pc.CalcPrimes(int.Parse(textBox1.Text),int.Parse(textBox2.Text));
-                are.Set();
-                cancellationToken.ThrowIfCancellationRequested();
-                
-               
-             synchronizationContext.Send(o =>
 
-           {
-               
-               listBox1.Items.Clear();
-                for (int i = 0; i < primes.Length; i++)
-                    listBox1.Items.Add(primes[i].ToString());
-          }, null);
-        });
+                List<int> primes = pc.CalcPrimes(int.Parse(textBox1.Text), int.Parse(textBox2.Text),cancellationToken);
 
-         
+                synchronizationContext.Send(o =>
+                {
+                    for (int i = 0; i < primes.Count; i++)
+                    {
+                        listBox1.Items.Add(primes[i].ToString());
+                    }
+                }
+                ,null);
 
 
-
+            },cancellationToken);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            are.WaitOne();
+            pc.waitHandle.Reset();
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if(cancellationToken!=null) cancellationTokenSource.Cancel();
+            cancellationTokenSource.Cancel();
 
         }
     }
