@@ -35,31 +35,19 @@ namespace Queues
             lock (lockObj)
             {
                 queue.Enqueue(value);
-                Console.WriteLine("Enqueue: "+ queue.Count);
-
             }
            
         }
         public T Dequeue()
         {
             T value;
-           
-                lock (lockObj)
-                {
-                    if (queue.Count >= 1)
-                    {
-                        value = queue.Dequeue();
-                        semaphore.Release();
-                        Console.WriteLine("Dequeue: " + queue.Count);
-                        return value;
-                    }
-                  
+            lock (lockObj)
+            {
+                value = queue.Dequeue();
+                semaphore.Release();
+            }
+            return value;
 
-                }
-
-            
-            return default(T);
-            
-        }
+      }
     }
 }

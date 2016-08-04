@@ -28,7 +28,7 @@ namespace BackgammonLogic
         public bool Finished { get; set; }
         
 
-        private static Random rand = new Random();
+        private  Random rand = new Random();
  
     public void RollDice()
     {

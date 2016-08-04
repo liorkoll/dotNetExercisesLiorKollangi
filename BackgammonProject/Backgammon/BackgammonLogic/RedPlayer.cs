@@ -19,23 +19,35 @@ namespace BackgammonLogic
 
         public bool IsMyTurn { get; set; }
 
-        //public bool IsCanPlay(Board board,Dice dice)
-        //{
+        public bool IsCanPlay(Board board,Bar gameBar,Dice dice)
+        {
+            if (gameBar.NumOfReds != 0)
+            {
+                if (!IsCanGetOutFromBar(board, dice))
+                {
+                    dice.FinishedAll();
+                    return false;
 
-        //    if (dice.DiceDouble)
-        //    {
-                
-        //        IsMyTurn= GetOptionalsMoves(board, dice.FirstCube).Count == 0
-        //            || GetOptionalsMoves(board, dice.SecondCube).Count == 0
-        //            || GetOptionalsMoves(board, dice.ThirdCube).Count == 0
-        //            || GetOptionalsMoves(board, dice.ForthCube).Count == 0;
-        //    }
-        //    //else
-        //    {
-        //        IsMyTurn= GetOptionalsMoves(board, dice.FirstCube).Count == 0 || GetOptionalsMoves(board, dice.SecondCube).Count == 0; ;
-        //    }
-        //    return IsMyTurn;
-        //}
+                }
+            }
+            if (dice.DiceDouble)
+            {
+
+                IsMyTurn = GetOptionalsMoves(board,gameBar, dice.FirstCube).Count != 0
+                    || GetOptionalsMoves(board,gameBar, dice.SecondCube).Count != 0
+                    || GetOptionalsMoves(board,gameBar, dice.ThirdCube).Count != 0
+                    || GetOptionalsMoves(board,gameBar, dice.ForthCube).Count != 0;
+            }
+            //else
+            {
+                IsMyTurn = GetOptionalsMoves(board,gameBar, dice.FirstCube).Count != 0 || GetOptionalsMoves(board,gameBar, dice.SecondCube).Count != 0; ;
+            }
+            if (!IsMyTurn)
+            {
+                dice.FinishedAll();
+            }
+            return IsMyTurn;
+        }
         public int GetDiceNumber(int cubeNumber,Dice dice)
         {
             int diceNumber = 0;
@@ -142,18 +154,20 @@ namespace BackgammonLogic
         {
             return diceNum >= toChoice - fromChoice;
         }
-        public List<int> GetOptionalsMoves(Board board, int diceNum)
+        public List<int> GetOptionalsMoves(Board board,Bar gameBar, int diceNum)
         {
+            
             List<int> options = new List<int>();
             for (int i = 1; i < board.Cells.Count; i++)
             {
-                if ((board.Cells[i].CheckersColor == CheckerColor.Red || board.Cells[i].NumOfCheckers <= 1)
-               &&
-                    (i - diceNum == 0 && board.Cells[i - diceNum].CheckersColor == CheckerColor.Red))
-                {
-                    options.Add(i);
-                    
+                if (i - diceNum > 0) {
+                    if ((board.Cells[i].CheckersColor == CheckerColor.Red || board.Cells[i].NumOfCheckers <= 1)
+                   &&
+                       (board.Cells[i - diceNum].CheckersColor == CheckerColor.Red))
+                    {
+                        options.Add(i);
 
+                    }
                 }
            
             }
@@ -198,5 +212,24 @@ namespace BackgammonLogic
             }
             return true;
         }
+
+      
+
+        public bool IsWin(Board board, Bar gameBar)
+        {
+            if (gameBar.NumOfReds != 0)
+            {
+                return false;
+            }
+            for (int i = 1; i < 25; i++)
+            {
+
+                if (board.Cells[i].NumOfCheckers > 0 && board.Cells[i].CheckersColor == CheckerColor.Red)
+                    return false;
+            }
+        
+            return true;
+        }
+            
     }
 }

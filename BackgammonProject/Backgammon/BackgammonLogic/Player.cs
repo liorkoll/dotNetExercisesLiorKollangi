@@ -8,17 +8,20 @@ namespace BackgammonLogic
 {
     public interface  Player
     {
-        //public bool Turn { get; set; }
-        //public CheckerColor PlayerColor { get; private set; }
-        //public string Name { get; private set; }
-        //public Player(string name, CheckerColor color)
-        //{
-        //    Name = name;
-        //    PlayerColor = color;
-        //}
+        bool IsCanPlay(Board board,Bar gameBar, Dice dice);
+         void moveTo(Dice dice, int cubeNumber, Board board, Bar gameBar, int fromChoice, int toChoice);
+         bool isMovesAppropriateToCube(int diceNum, int fromChoice, int toChoice);
+         bool isMovesAppropriateToCubeWhenCanGetOut(int diceNum, int fromChoice, int toChoice);
+         List<int> GetOptionalsMoves(Board board, Bar gameBar,int diceNum);
 
 
+        bool IsWin(Board board ,Bar gameBar);
+        
+        
 
+
+        bool IsCanGetOutFromBar(Board board, Dice dice);
+         bool IsCanGetOutFromBoard(Board board);
 
     }
 }

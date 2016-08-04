@@ -13,7 +13,11 @@ namespace BackgammonLogic
         public Board GameBoard { get; set; }
         public Dice GameDice { get; set; }
         public Bar GameBar { get; set; }
-        public bool IsGameOver { get; private set; }
+        
+        public bool CheckIfGameOver()
+        {
+            return PlayerBlack.IsWin(GameBoard, GameBar) || PlayerRed.IsWin(GameBoard, GameBar) ? true : false;
+        }
 
         public BackgammonManager()
         {
@@ -23,7 +27,6 @@ namespace BackgammonLogic
             GameDice = new Dice();
             GameBar = new Bar();
             PlayerRed.IsMyTurn = true;
-            IsGameOver = false;
         }
       
     }

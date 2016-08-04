@@ -26,16 +26,23 @@ namespace PrimesCalcilator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int num1;
+            int num2 = 0;
+            bool checkNum = int.TryParse(textBox1.Text, out num1) && int.TryParse(textBox2.Text, out num2);
+            if (!checkNum)
+            {
+                MessageBox.Show("Please type only numbers");
+                return;
+            }
 
 
             var synchronizationContext = SynchronizationContext.Current;
 
-
-
             Task.Run(() =>
             {
-
-                List<int> primes = pc.CalcPrimes(int.Parse(textBox1.Text), int.Parse(textBox2.Text),cancellationToken);
+   
+              
+                List<int> primes = pc.CalcPrimes(num1,num2,cancellationToken);
 
                 synchronizationContext.Send(o =>
                 {

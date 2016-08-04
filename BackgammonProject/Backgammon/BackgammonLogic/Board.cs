@@ -18,10 +18,6 @@ namespace BackgammonLogic
         }
         public void AddCheckerToBoard(int cellNumber, CheckerColor color)
         {
-            //   if(color != Cells[cellNumber].CheckersColor)
-            //   {
-            //     Cells[cellNumber].NumOfCheckers++;
-            //   }
 
             if (Cells[cellNumber].NumOfCheckers == 0)
             {
@@ -69,8 +65,8 @@ namespace BackgammonLogic
                 Cells[i] = new CellOnBoard();
             }
 
-           
-            // O and 25 is out of game 
+
+            //O and 25 is out of game
             Cells[1] = new CellOnBoard(2, CheckerColor.Red);
             Cells[6] = new CellOnBoard(5, CheckerColor.Black);
             Cells[8] = new CellOnBoard(3, CheckerColor.Black);
@@ -79,6 +75,10 @@ namespace BackgammonLogic
             Cells[17] = new CellOnBoard(3, CheckerColor.Red);
             Cells[19] = new CellOnBoard(5, CheckerColor.Red);
             Cells[24] = new CellOnBoard(2, CheckerColor.Black);
+            //for(int i = 1; i < 25; i++)
+            //{
+            //    Cells[i]= new CellOnBoard(5, CheckerColor.Black);
+            //}
 
 
         }
