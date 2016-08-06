@@ -15,10 +15,10 @@ namespace CustomAwaiter
 
 
 
-            Console.WriteLine("await for 2 seconds");
+            Console.WriteLine("await for 2 seconds with TimeSpan");
             await TimeSpan.FromSeconds(2);
 
-            Console.WriteLine("await for 2 seconds");
+            Console.WriteLine("await for 2 seconds with int");
             await 2000;
 
             Console.WriteLine("Starting cmd and awaiting until its closed");

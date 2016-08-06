@@ -12,9 +12,8 @@ namespace Primes
         public static List<int> CalcPrimes(int firstNumber, int lastNumber)
         {
             List<int> primes = new List<int>(1024);
-            int count = 0;
             Random rand = new Random();
-            Parallel.For(firstNumber, lastNumber, (i,state) =>
+            Parallel.For(firstNumber, lastNumber+1, (i,state) =>
             {
                 lock (rand)
                 {
@@ -24,18 +23,20 @@ namespace Primes
                         return;
                     }
                 }
-                for (int j = 1; j < lastNumber; j++)
-                {
+                int limit = (int)Math.Sqrt(i);
+                bool prime = true;
+                for (int j = 2; j <= limit; j++)
                     if (i % j == 0)
                     {
-                        count++;
+                        prime = false;
+                        break;
                     }
-                    if (count == 2)
-                    {
+                    if (prime)
+                    
                         lock (primes)
                             primes.Add(i);
-                    }
-                }
+                     
+                                    
             });
 
                 return primes;

@@ -12,26 +12,29 @@ namespace Primes
         public static List<int> CalcPrimes(int firstNumber, int lastNumber, int maximum)
         {
             List<int> primes = new List<int>();
-            int count = 0;
+           
             ParallelOptions options = new ParallelOptions()
             {
                 MaxDegreeOfParallelism = maximum
             };
 
-            Parallel.For(firstNumber, lastNumber,options, i =>
+            Parallel.For(firstNumber, lastNumber+1,options, i =>
             {
-                for (int j = 1; j < lastNumber; j++)
-                {
+                int limit = (int)Math.Sqrt(i);
+                bool prime = true;
+                for (int j = 2; j <=limit; j++)
+                
                     if (i % j == 0)
                     {
-                        count++;
+                        prime = false;
+                        break;
                     }
-                    if (count == 2)
-                    {
+                    if (prime)
+                    
                         lock (primes)
                             primes.Add(i);
-                    }
-                }
+                    
+                
             });
 
                 return primes;
@@ -40,11 +43,13 @@ namespace Primes
 
         static void Main(string[] args)
         {
+            Console.WriteLine("testing with deg 1");
             var sw=Stopwatch.StartNew();
-            CalcPrimes(1, 10000, 1);
+            var c = CalcPrimes(2, 10000, 1);          
             Console.WriteLine(sw.Elapsed);
-            sw.Restart();         
-            CalcPrimes(1, 10000, 10);
+            sw.Restart();
+            Console.WriteLine("testing with deg 10");
+            c =CalcPrimes(1, 10000, 10);
             Console.WriteLine(sw.Elapsed);
 
         }

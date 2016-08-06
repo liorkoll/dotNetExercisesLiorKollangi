@@ -33,7 +33,7 @@ namespace PrimesCalcilator
         {
             int num1;
             int num2 = 0;
-            bool checkNum = int.TryParse(textBox1.Text, out num1) && int.TryParse(textBox2.Text, out num2);
+            bool checkNum = int.TryParse(StartNumberTextBox.Text, out num1) && int.TryParse(EndNumberTextBox.Text, out num2);
             if (!checkNum)
             {
                 MessageBox.Show("Please type only numbers");
@@ -53,7 +53,7 @@ namespace PrimesCalcilator
                 {
                     for (int i = 0; i < primes.Count; i++)
                     {
-                        listBox1.Items.Add(primes[i].ToString());
+                        PrimesListBox.Items.Add(primes[i].ToString());
                     }
                 }
                 ,null);
@@ -82,7 +82,7 @@ namespace PrimesCalcilator
         {
             int num1;
             int num2 = 0;
-            bool checkNum = int.TryParse(textBox3.Text, out num1) && int.TryParse(textBox4.Text, out num2);
+            bool checkNum = int.TryParse(StartNumber2TextBox.Text, out num1) && int.TryParse(EndNumber2TextBox.Text, out num2);
             if (!checkNum)
             {
                 MessageBox.Show("Please type only numbers");
@@ -91,7 +91,7 @@ namespace PrimesCalcilator
             List<int> primes = await Task.Run(() => {
                 return pc.CalcPrimes(num1, num2, cancellationToken);
             });
-           // });
+
 
             return primes.Count;
 
@@ -101,12 +101,17 @@ namespace PrimesCalcilator
         {
 
             int count = await CountPrimes();
-            label1.Text = count.ToString();
-            if (File.Exists(textBox5.Text))
+            TotalPrimeLabel.Text = count.ToString();
+            if (File.Exists(OutputFileTextBox.Text))
             {
-                File.Delete(textBox5.Text);
+                File.Delete(OutputFileTextBox.Text);
             }
-            File.WriteAllText(textBox5.Text, count.ToString());
+            File.WriteAllText(OutputFileTextBox.Text, count.ToString());
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
