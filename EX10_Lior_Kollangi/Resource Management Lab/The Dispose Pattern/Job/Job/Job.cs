@@ -23,17 +23,19 @@ namespace Jobs {
 	public class Job:IDisposable {
 		private IntPtr _hJob;
 		private List<Process> _processes;
+        private int _size;
 
-		public Job(string name) {
+		public Job(string name,int size) {
+            _size = size;
            _hJob= NativeJob.CreateJobObject(IntPtr.Zero, name);
             if (_hJob == IntPtr.Zero) throw new InvalidOperationException("can't create job");
             _processes = new List<Process>();
-            GC.AddMemoryPressure(1024);
+            GC.AddMemoryPressure(_size);
             Console.WriteLine("The Job is created");
 		}
 
 		public Job()
-			: this(null) {
+			: this(null,0) {
 		}
 
 		protected void AddProcessToJob(IntPtr hProcess) {
@@ -82,7 +84,7 @@ namespace Jobs {
                     _hJob = IntPtr.Zero;
                     
                 }
-                GC.RemoveMemoryPressure(1024);
+                GC.RemoveMemoryPressure(_size);
                 Console.WriteLine("the job was relased");
             }
         }

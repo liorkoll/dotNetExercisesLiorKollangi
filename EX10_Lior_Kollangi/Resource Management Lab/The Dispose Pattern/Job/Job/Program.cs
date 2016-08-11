@@ -10,7 +10,7 @@ namespace Jobs {
     {
         static void Main(string[] args)
         {
-            using (Job job = new Job())
+            using (Job job = new Job("MyJob", 1000000)) 
             {
                 for (int i = 0; i < 20; i++)
                 {
@@ -19,10 +19,7 @@ namespace Jobs {
 
                 }
 
-
-
-
-                Console.WriteLine("Press <Enter> to kill all notepad instances...");
+                Console.WriteLine("Press enter to kill all notepad processs ");
                 Console.ReadLine();
                 job.Kill();
             }
