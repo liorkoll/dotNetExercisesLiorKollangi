@@ -24,19 +24,25 @@ namespace Jobs {
 		private IntPtr _hJob;
 		private List<Process> _processes;
         private int _size;
+        private bool _disposed = false;
 
-		public Job(string name,int size) {
-            _size = size;
+		public Job(string name) {
+            
            _hJob= NativeJob.CreateJobObject(IntPtr.Zero, name);
             if (_hJob == IntPtr.Zero) throw new InvalidOperationException("can't create job");
             _processes = new List<Process>();
-            GC.AddMemoryPressure(_size);
-            Console.WriteLine("The Job is created");
+         
 		}
 
 		public Job()
-			: this(null,0) {
+			: this(null) {
 		}
+        public Job(int size){
+            _size = size;
+               GC.AddMemoryPressure(_size);
+            Console.WriteLine("The Job is created");
+
+        }
 
 		protected void AddProcessToJob(IntPtr hProcess) {
 			CheckIfDisposed();
@@ -74,24 +80,36 @@ namespace Jobs {
 
         private void Dispose(bool disposing)
         {
-            NativeJob.CloseHandle(_hJob);
+            if (_disposed) return;
             if (disposing)
             {
                 foreach(Process p in _processes)
                 {
-                    p.Dispose();
-                    GC.SuppressFinalize(this);
-                    _hJob = IntPtr.Zero;
-                    
+                    p.Dispose();        
+                 
                 }
-                GC.RemoveMemoryPressure(_size);
-                Console.WriteLine("the job was relased");
+                _processes = null;
+             
             }
+            NativeJob.CloseHandle(_hJob);
+            if (_size > 0)
+            {
+                GC.RemoveMemoryPressure(_size);
+               
+                _disposed = true;
+            }
+        
+
+
         }
         ~Job()
         {
-            
+            Console.WriteLine("the job is disposing");
             Dispose(false);
+           // GC.RemoveMemoryPressure(_size);
+            //Console.WriteLine("the job was relased");
+            //_disposed = true;
+            
         }
     }
 }
