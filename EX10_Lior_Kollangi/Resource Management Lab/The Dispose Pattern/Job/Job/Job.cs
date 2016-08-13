@@ -42,7 +42,7 @@ namespace Jobs {
                 throw new ArgumentException("size need to be postive number");
             _size = size;
                GC.AddMemoryPressure(_size);
-            Console.WriteLine("The Job is created");
+            Console.WriteLine("The Job was created");
 
         }
 
