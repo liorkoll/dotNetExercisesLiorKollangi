@@ -38,6 +38,8 @@ namespace Jobs {
 			: this(null) {
 		}
         public Job(int size){
+            if (size <= 0)
+                throw new ArgumentException("size need to be postive number");
             _size = size;
                GC.AddMemoryPressure(_size);
             Console.WriteLine("The Job is created");
@@ -106,9 +108,7 @@ namespace Jobs {
         {
             Console.WriteLine("the job is disposing");
             Dispose(false);
-           // GC.RemoveMemoryPressure(_size);
-            //Console.WriteLine("the job was relased");
-            //_disposed = true;
+           
             
         }
     }
